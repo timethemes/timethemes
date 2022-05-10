@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Heroes - Muse Snippets | Muse - Bootstrap 5 Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../favicon.ico">
+
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../documentation/assets/vendor/prism/prism.css">
+  <link href="../assets/vendor/simplebar/dist/simplebar.min.css" rel="stylesheet" type="text/css" media="all">
+
+  <!-- CSS Muse Template -->
+  <link rel="stylesheet" href="../assets/css/theme.min.css">
+
+  <!-- CSS Muse Doc -->
+  <link rel="stylesheet" href="../documentation/assets/css/docs.css">
+</head>
+<body class="pages-template">
+  <!-- Muse Documentation -->
+<div class="muse-documentation">
+	<header class="doc-header bg-white px-3 px-md-4 shadow-sm position-fixed">
+		<nav class="navbar navbar-expand-lg has-header-inner py-0">
+			<a class="navbar-brand" href="index.html">
+				<svg xmlns="http://www.w3.org/2000/svg" width="78.395" height="22.585" viewBox="0 0 78.395 22.585">
+  <path data-name="Combined Shape" d="M66.578,21.587a7.332,7.332,0,0,1-3.028-2.762,7.653,7.653,0,0,1-1.066-4.012,7.74,7.74,0,0,1,1.052-4,7.381,7.381,0,0,1,2.888-2.777A8.953,8.953,0,0,1,74.554,8a6.983,6.983,0,0,1,2.816,2.732,8.148,8.148,0,0,1,1.023,3.984v.165l-.017.25-.005.059a.913.913,0,0,1-.86.783H66.735l.025.111.031.131a3.685,3.685,0,0,0,1.481,2.166,4.991,4.991,0,0,0,2.948.841,5.991,5.991,0,0,0,2.147-.361,5.08,5.08,0,0,0,1.033-.6.917.917,0,0,1,1.171.091l.036.037,1.2,1.36.04.053a.993.993,0,0,1,.188.724.437.437,0,0,1-.185.293,10.861,10.861,0,0,1-5.738,1.766A9.933,9.933,0,0,1,66.578,21.587Zm1.541-10.594a3.767,3.767,0,0,0-1.293,2.324l-.035.214h7.916l-.015-.106-.023-.136a3.81,3.81,0,0,0-1.287-2.281,3.932,3.932,0,0,0-2.617-.905A4.017,4.017,0,0,0,68.119,10.994ZM49.469,22.029a13.745,13.745,0,0,1-2.132-.729l-.015-.007-.056-.027a.787.787,0,0,1-.362-1.052l.687-1.364.032-.062a1.238,1.238,0,0,1,.941-.665.514.514,0,0,1,.2.04,11.691,11.691,0,0,0,4.876,1.054h.055l.265,0,.1,0,.2-.009.193-.013.121-.01.233-.02.22-.022.063-.007.031,0h.011l.2-.025.189-.027.177-.03.028-.005.056-.011.159-.033.031-.008.032-.007.012,0,.142-.039c.636-.187.908-.487.908-1,0-.465-.4-.848-1.162-1.108a6.757,6.757,0,0,0-.671-.185l-.2-.042-.139-.028c-.227-.044-.481-.086-.774-.131l-.257-.036-.271-.035-.283-.034-.282-.041-.278-.041-.36-.058-.214-.035A21.474,21.474,0,0,1,50,15.686a5.1,5.1,0,0,1-2.213-1.261,3.377,3.377,0,0,1-.913-2.537,3.807,3.807,0,0,1,.867-2.453A5.686,5.686,0,0,1,50.3,7.745a12.031,12.031,0,0,1,4.045-.614,17.356,17.356,0,0,1,3.454.351,12.263,12.263,0,0,1,1.811.55l.049.021a.833.833,0,0,1,.455.481.759.759,0,0,1-.04.6l-.7,1.387-.03.053a.9.9,0,0,1-.768.416.938.938,0,0,1-.3-.05,13.066,13.066,0,0,0-3.926-.824,5.321,5.321,0,0,0-2.391.418,1.342,1.342,0,0,0-.868,1.184,1.213,1.213,0,0,0,.954,1.166c.076.027.166.055.288.09l.159.043.262.065.287.064.206.042.218.041.347.061.246.04.391.06.275.04.181.029.356.057.342.059.332.058.473.089.3.06.288.061.185.04c.29.066.573.136.842.209a4.909,4.909,0,0,1,2.165,1.247,3.335,3.335,0,0,1,.9,2.481,3.674,3.674,0,0,1-.88,2.409,5.765,5.765,0,0,1-2.611,1.661,12.791,12.791,0,0,1-4.138.6A17.209,17.209,0,0,1,49.469,22.029Zm-7.5.463-.072,0a1.327,1.327,0,0,1-1.278-1.31V20.131l-.318.347-.121.129a5.951,5.951,0,0,1-2,1.367,6.876,6.876,0,0,1-2.676.518,6.719,6.719,0,0,1-4.834-1.706A6.756,6.756,0,0,1,28.894,15.7V8.444l0-.069a1.334,1.334,0,0,1,1.348-1.243h1.541l.072,0a1.329,1.329,0,0,1,1.278,1.31v6.727c.038,2.521,1.182,3.8,3.4,3.8a3.7,3.7,0,0,0,2.79-1.108,4.555,4.555,0,0,0,1.055-3.252V8.444l0-.069a1.332,1.332,0,0,1,1.347-1.243h1.542l.072,0a1.328,1.328,0,0,1,1.277,1.31V21.181l0,.069a1.332,1.332,0,0,1-1.347,1.243Zm-18.184,0-.072,0A1.322,1.322,0,0,1,22.42,21.2V14.229a4.078,4.078,0,0,0-.833-2.68,3.031,3.031,0,0,0-2.385-.955,3.584,3.584,0,0,0-2.723,1.064,4.4,4.4,0,0,0-1,3.117V21.2l0,.068a1.332,1.332,0,0,1-1.361,1.22H12.558l-.072,0A1.322,1.322,0,0,1,11.2,21.2V14.25c-.037-2.425-1.12-3.656-3.218-3.656a3.546,3.546,0,0,0-2.694,1.064,4.4,4.4,0,0,0-1,3.117V21.2l0,.068a1.332,1.332,0,0,1-1.361,1.22H1.363l-.073,0A1.321,1.321,0,0,1,0,21.2V8.647l0-.068a1.331,1.331,0,0,1,1.361-1.22H2.708l.073,0a1.322,1.322,0,0,1,1.29,1.287V9.4l.317-.343L4.5,8.935a5.752,5.752,0,0,1,2-1.306,7.549,7.549,0,0,1,2.777-.5,7.039,7.039,0,0,1,2.99.621A5.205,5.205,0,0,1,14.4,9.547l.138.2.155-.187.113-.134a6.414,6.414,0,0,1,2.3-1.658,8.045,8.045,0,0,1,3.217-.637,6.494,6.494,0,0,1,4.652,1.637A6.53,6.53,0,0,1,26.7,13.7V21.2l0,.068a1.332,1.332,0,0,1-1.361,1.22Zm13.706-20.3a2.194,2.194,0,1,1,2.194,2.2A2.194,2.194,0,0,1,37.489,2.194Zm-5.852,0a2.194,2.194,0,1,1,2.194,2.2A2.194,2.194,0,0,1,31.637,2.194Z" fill="#1e1e1e"/>
+</svg>
+      </a>
+      <div class="text-end d-block d-xl-none order-md-2 ms-auto">
+        <a href="javascript:void(0);" class="aside-toggle" onclick="toggleClass()">
+          <img src="../assets/svg/icons/hamburger@20.svg" class="menu-icon" alt="Menu">        
+          <img src="../assets/svg/icons/close@20.svg" class="menu-close" alt="Menu Close">
+        </a>
+      </div>
+      <ul class="nav nav-classic nav-sm border-0 nav-docs-space ms-auto">
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3" target="_blank" href="../documentation/index.html">
+            <span class="d-none d-sm-block">Documentation</span>
+            <span class="d-sm-none">Docs</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3 active" href="index.html">Snippets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3" target="_blank" href="../html/templates/saas-style-one.html">Templates</a>
+        </li>
+      </ul>
+		</nav>
+  </header>
+  <div class="container-fluid main-docs">
+    <div class="row justify-content-lg-end">
+      <nav class="col-lg-3 col-xl-2 musesidebar navbar-expand-lg ms-2 px-0 muse-sidebar">
+        <div class="collapse navbar-collapse show" id="sidebar-nav">
+          <div id="sidebarNav" class="musesidebar-scrollbar musesidebar-sticky ps-2 ps-md-0 pe-2 accordion" data-simplebar>
+            <ul class="musesidebar-nav mb-0">
+              <li class="musesidebar-item"><a class="musesidebar-link" href="index.html">Introduction</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="nav-menus.html">Nav Menus</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="footers.html">Footers</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link active" href="heroes.html">Heroes</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="clients.html">Clients</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="pricing.html">Pricing</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="call-to-action.html">Call to action</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="team.html">Team</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="faq.html">FAQ's</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="gallery.html">Gallery</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="testimonials.html">Testimonials</a></li>
+            </ul>
+            <a class="musesidebar-heading mb-0 collapsed" data-bs-toggle="collapse" href="#customize-collapse" role="button" aria-expanded="false">Features</a>
+            <ul class="musesidebar-nav collapse mb-0" id="customize-collapse" data-bs-parent="#sidebarNav">
+              <li class="musesidebar-item"><a class="musesidebar-link" href="blocks.html">Blocks</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="features-cards.html">Cards</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="features-icons.html">Icons</a></li>
+            </ul>
+            <a class="musesidebar-heading mb-0 collapsed" data-bs-toggle="collapse" href="#content-collapse" role="button" aria-expanded="false">Content</a>
+            <ul class="musesidebar-nav collapse mb-0" id="content-collapse" data-bs-parent="#sidebarNav">
+              <li class="musesidebar-item"><a class="musesidebar-link" href="content-blocks.html">Blocks</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="content-cards.html">Cards</a></li>
+            </ul>
+            <a class="musesidebar-heading mb-0 collapsed" data-bs-toggle="collapse" href="#text-collapse" role="button" aria-expanded="false">Text</a>
+            <ul class="musesidebar-nav collapse mb-0" id="text-collapse" data-bs-parent="#sidebarNav">
+              <li class="musesidebar-item"><a class="musesidebar-link" href="text-list.html">List</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="text-block.html">Block</a></li>
+            </ul>
+            <a class="musesidebar-heading mb-0 collapsed" data-bs-toggle="collapse" href="#form-collapse" role="button" aria-expanded="false">Form</a>
+            <ul class="musesidebar-nav collapse mb-0" id="form-collapse" data-bs-parent="#sidebarNav">
+              <li class="musesidebar-item"><a class="musesidebar-link" href="form-single.html">Single</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="form-block.html">Block</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="form-account.html">Account</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="col-xl-10 muse-docs-content"> 
+        <div class="p-0 p-md-4">
+          <div class="musedocs-content-divider">
+            <h1>Heroes</h1>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Hero 1</h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-1" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-1" data-bs-toggle="pill" href="#pills-result-1" role="tab" aria-controls="pills-result-1" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-1" data-bs-toggle="pill" href="#pills-html-1" role="tab" aria-controls="pills-html-1" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-1">
+                <div class="tab-pane fade p-4 show active" id="pills-result-1" role="tabpanel" aria-labelledby="pills-result-tab-1">
+                  <section class="muse-section maindemo-template">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <h2 class="h1 display-4">Harnessing the power of müse</h2>
+                          <p class="big mt-md-4 mt-3 pb-md-2 text-black-600 lh-lg">Design, build, collaborate, and bring your ideas to life with the world’s most popular and intuitive 3d design platform.</p>
+                          <div class="my-4">
+                            <a href="javascript:void(0);" class="btn btn-lg btn-success me-4">Free Trial</a>
+                            <a href="javascript:void(0);" class="btn btn-lg btn-link link-success">Learn More <svg class="ml-1" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 18">
+                              <path d="M.293.293a1,1,0,0,1,1.3-.1l.112.1,8,8a1,1,0,0,1,.1,1.3l-.1.112-8,8A1,1,0,0,1,.2,16.405l.1-.112L7.585,9,.293,1.707A1,1,0,0,1,.2.405Z" transform="translate(0 0)" fill="#20c997"></path>
+                            </svg></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-6">
+                          <img src="../assets/img/templates/maindemo-banner.png" class="img-fluid" alt="Banner">
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class="tab-pane fade" id="pills-html-1" role="tabpanel" aria-labelledby="pills-html-tab-1">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;section class="muse-section"&gt;
+                        &lt;div class="container"&gt;
+                          &lt;div class="row"&gt;
+                            &lt;div class="col-lg-6"&gt;
+                              &lt;h1 class="display-4"&gt;Harnessing the power of müse&lt;/h1&gt;
+                              &lt;p class="big mt-md-4 mt-3 pb-md-2 text-black-600 lh-lg"&gt;Design, build, collaborate, and bring your ideas to life with the world’s most popular and intuitive 3d design platform.&lt;/p&gt;
+                              &lt;div class="my-4"&gt;
+                                &lt;a href="javascript:void(0);" class="btn btn-lg btn-success me-4"&gt;Free Trial&lt;/a&gt;
+                                &lt;a href="javascript:void(0);" class="btn btn-lg btn-link link-success"&gt;Learn More &lt;svg class="ml-1" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 18"&gt;
+                                  &lt;path d="M.293.293a1,1,0,0,1,1.3-.1l.112.1,8,8a1,1,0,0,1,.1,1.3l-.1.112-8,8A1,1,0,0,1,.2,16.405l.1-.112L7.585,9,.293,1.707A1,1,0,0,1,.2.405Z" transform="translate(0 0)" fill="#20c997"&gt;&lt;/path&gt;
+                                &lt;/svg&gt;&lt;/a&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-lg-6"&gt;
+                              &lt;img src="../assets/img/templates/maindemo-banner.png" class="img-fluid" alt="Banner"&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/section&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Hero 2 </h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-2" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-2" data-bs-toggle="pill" href="#pills-result-2" role="tab" aria-controls="pills-result-2" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-2" data-bs-toggle="pill" href="#pills-html-2" role="tab" aria-controls="pills-html-2" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-2">
+                <div class="tab-pane fade p-4 show active" id="pills-result-2" role="tabpanel" aria-labelledby="pills-result-tab-2">
+                  <section class="muse-section">
+                    <div class="container">
+                      <div class="row align-items-center">
+                        <div class="col-lg-6 order-lg-2 text-start text-lg-end">
+                          <img src="../assets/img/templates/travel-banner.svg" class="img-fluid" alt="Banner">
+                        </div>
+                        <div class="col-lg-6">
+                          <div class="my-3">
+                            <h2 class="h1 display-3">Book your trip instantly</h2>
+                            <h3 class="mb-0">Search 14,600 destinations and find your perfect vaccation</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class="tab-pane fade" id="pills-html-2" role="tabpanel" aria-labelledby="pills-html-tab-2">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;section class="muse-section"&gt;
+                        &lt;div class="container"&gt;
+                          &lt;div class="row align-items-center"&gt;
+                            &lt;div class="col-lg-6 order-lg-2 text-start text-lg-end"&gt;
+                              &lt;img src="../assets/img/templates/travel-banner.svg" class="img-fluid" alt="Banner"&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-lg-6"&gt;
+                              &lt;div class="my-3"&gt;
+                                &lt;h1 class="display-3"&gt;Book your trip instantly&lt;/h1&gt;
+                                &lt;h3 class="mb-0"&gt;Search 14,600 destinations and find your perfect vaccation&lt;/h3&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/section&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Hero 3 </h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-3" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-3" data-bs-toggle="pill" href="#pills-result-3" role="tab" aria-controls="pills-result-3" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-3" data-bs-toggle="pill" href="#pills-html-3" role="tab" aria-controls="pills-html-3" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-3">
+                <div class="tab-pane fade p-4 show active" id="pills-result-3" role="tabpanel" aria-labelledby="pills-result-tab-3">
+                  <section class="muse-section pb-0 bg-gray-100">
+                    <div class="container">
+                      <div class="row align-items-center">
+                        <div class="col-lg-10 m-auto text-center">
+                          <div class="my-3">
+                            <h2 class="h1 display-3">Consult with the <br>right doctor for you</h2>
+                            <h3 class="mb-0">Search 14,600 doctors and find <br>the best help</h3>
+                          </div>
+                          <div class="mt-3">
+                            <img src="../assets/img/templates/clinic-banner.svg" class="img-fluid" alt="Banner">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class="tab-pane fade" id="pills-html-3" role="tabpanel" aria-labelledby="pills-html-tab-3">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;section class="muse-section pb-0 bg-gray-100"&gt;
+                        &lt;div class="container"&gt;
+                          &lt;div class="row align-items-center"&gt;
+                            &lt;div class="col-lg-10 m-auto text-center"&gt;
+                              &lt;div class="my-3"&gt;
+                                &lt;h1 class="display-3"&gt;Consult with the &lt;br&gt;right doctor for you&lt;/h1&gt;
+                                &lt;h3 class="mb-0"&gt;Search 14,600 doctors and find &lt;br&gt;the perfect help&lt;/h3&gt;
+                              &lt;/div&gt;
+                              &lt;div class="mt-3"&gt;
+                                &lt;img src="../assets/img/templates/clinic-banner.svg" class="img-fluid" alt="Banner"&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/section&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Hero 4 </h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-4" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-4" data-bs-toggle="pill" href="#pills-result-4" role="tab" aria-controls="pills-result-4" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-4" data-bs-toggle="pill" href="#pills-html-4" role="tab" aria-controls="pills-html-4" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-4">
+                <div class="tab-pane fade p-4 show active" id="pills-result-4" role="tabpanel" aria-labelledby="pills-result-tab-4">
+                  <section class="muse-section bg-black-800">
+                    <div class="container">
+                      <div class="row align-items-center">
+                        <div class="col-lg-10 m-auto text-center">
+                          <div class="my-3">
+                            <h2 class="h1 display-2 text-white">Harnessing the <br>power of müse.</h2>
+                            <h2 class="mb-0 pb-md-3 mt-2 text-white">Design, build, collaborate, and bring <br class="d-none d-md-block">your ideas to life with the world.</h2>
+                            <a href="#" class="btn btn-xl btn-danger rounded-pill my-4">See Pricing</a>
+                          </div>
+                          <div class="mt-1 mt-md-5 overlay-center">
+                            <img src="../assets/img/templates/saas-banner.jpg" class="img-fluid shadow-dark-80 rounded-6" alt="Figma">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class="tab-pane fade" id="pills-html-4" role="tabpanel" aria-labelledby="pills-html-tab-4">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;section class="muse-section bg-black-800"&gt;
+                        &lt;div class="container"&gt;
+                          &lt;div class="row align-items-center"&gt;
+                            &lt;div class="col-lg-10 m-auto text-center"&gt;
+                              &lt;div class="my-3"&gt;
+                                &lt;h1 class="display-2 text-white"&gt;Harnessing the &lt;br&gt;power of müse.&lt;/h1&gt;
+                                &lt;h2 class="mb-0 pb-md-3 mt-2 text-white"&gt;Design, build, collaborate, and bring &lt;br class="d-none d-md-block"&gt;your ideas to life with the world.&lt;/h2&gt;
+                                &lt;a href="#" class="btn btn-xl btn-danger rounded-pill my-4"&gt;See Pricing&lt;/a&gt;
+                              &lt;/div&gt;
+                              &lt;div class="mt-1 mt-md-5 overlay-center"&gt;
+                                &lt;img src="../assets/img/templates/saas-banner.jpg" class="img-fluid shadow-dark-80 rounded-6" alt="Figma"&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/section&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Hero 5 </h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-5" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-5" data-bs-toggle="pill" href="#pills-result-5" role="tab" aria-controls="pills-result-5" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-5" data-bs-toggle="pill" href="#pills-html-5" role="tab" aria-controls="pills-html-5" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-5">
+                <div class="tab-pane fade p-4 show active" id="pills-result-5" role="tabpanel" aria-labelledby="pills-result-tab-5">
+                  <section class="muse-section pb-0 bg-gray-100 ecommerce-template">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-lg-6 order-lg-2 text-lg-end mt-auto">
+                          <img src="../assets/img/templates/bitmap.png" class="img-fluid" alt="Banner">
+                        </div>
+                        <div class="col-lg-6 mt-4 mb-2 my-lg-0">
+                          <p class="star-icon"><span class="rounded-pill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16.416 15.6">
+                            <path d="M17.076,19.2,12,16.14,6.924,19.2l1.344-5.772L3.792,9.546l5.9-.5L12,3.6l2.3,5.442,5.9.5-4.476,3.882Z" transform="translate(-3.792 -3.6)" fill="#ffffff"></path>
+                          </svg>
+                          </span> 4.8</p>
+                          <h2 class="h1 display-4 mt-2 text-uppercase">New Mac Pro Limited Edition</h2>
+                          <p class="big mt-1 lh-lg">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled</p>
+                          <p class="h3 mt-4">$2,195</p>
+                          <div class="mt-2">
+                            <a href="javascript:void(0);" class="btn btn-xl btn-dark font-weight-semibold text-uppercase me-2 px-5"><span class="px-md-5">Cart</span></a>
+                            <a href="javascript:void(0);" class="btn btn-success btn-icon btn-xl">
+                              <svg data-name="Icons/Tabler/Notification" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <rect data-name="Icons/Tabler/Notification background" width="24" height="24" fill="none"></rect>
+                                <path d="M6.162,19.63l-.005-.246v-.308H.926A.923.923,0,0,1,.471,17.35a4,4,0,0,0,1.956-2.66l.036-.229V10.726A9.492,9.492,0,0,1,7.292,2.873l.147-.08,0-.018A3.369,3.369,0,0,1,10.566.007L10.771,0a3.379,3.379,0,0,1,3.287,2.573l.045.22.147.08a9.556,9.556,0,0,1,4.806,7.541l.023.355-.007,3.582a4.016,4.016,0,0,0,2,3,.924.924,0,0,1-.329,1.719l-.126.008H15.387v.308a4.616,4.616,0,0,1-9.225.246ZM8,19.385a2.769,2.769,0,0,0,5.532.189l.007-.189v-.308H8ZM9.242,3.228l-.012.238-.005.045L9.2,3.63l-.039.113-.054.107-.035.055L9,4l-.036.038-.05.046-.1.074L8.7,4.219A7.7,7.7,0,0,0,4.332,10.46l-.022.309-.007,3.8a5.875,5.875,0,0,1-.94,2.541l-.084.119H18.266l-.007-.012a6.007,6.007,0,0,1-.983-2.452l-.043-.306V10.812a7.674,7.674,0,0,0-4.4-6.593.919.919,0,0,1-.518-.7l-.009-.132a1.538,1.538,0,0,0-3.069-.157Z" transform="translate(1.499)" fill="#fff"></path>
+                              </svg>
+                            </a>
+                          </div>
+                          <small class="text-uppercase text-gray-600 d-block my-3">FREE SHIPPING</small>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class="tab-pane fade" id="pills-html-5" role="tabpanel" aria-labelledby="pills-html-tab-5">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;section class="muse-section pb-0 bg-gray-100 ecommerce-template"&gt;
+                        &lt;div class="container"&gt;
+                          &lt;div class="row"&gt;
+                            &lt;div class="col-lg-6 order-lg-2 text-lg-end mt-auto"&gt;
+                              &lt;img src="../assets/img/templates/bitmap.png" class="img-fluid" alt="Banner"&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-lg-6 mt-4 mb-2 my-lg-0"&gt;
+                              &lt;p class="star-icon"&gt;&lt;span class="rounded-pill"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16.416 15.6"&gt;
+                                &lt;path d="M17.076,19.2,12,16.14,6.924,19.2l1.344-5.772L3.792,9.546l5.9-.5L12,3.6l2.3,5.442,5.9.5-4.476,3.882Z" transform="translate(-3.792 -3.6)" fill="#ffffff"&gt;&lt;/path&gt;
+                              &lt;/svg&gt;
+                              &lt;/span&gt; 4.8&lt;/p&gt;
+                              &lt;h1 class="display-4 mt-2 text-uppercase"&gt;New Mac Pro Limited Edition&lt;/h1&gt;
+                              &lt;p class="big mt-1 lh-lg"&gt;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled&lt;/p&gt;
+                              &lt;p class="h3 mt-4"&gt;$2,195&lt;/p&gt;
+                              &lt;div class="mt-2"&gt;
+                                &lt;a href="javascript:void(0);" class="btn btn-xl btn-dark font-weight-semibold text-uppercase me-2 px-5"&gt;&lt;span class="px-md-5"&gt;Cart&lt;/span&gt;&lt;/a&gt;
+                                &lt;a href="javascript:void(0);" class="btn btn-success btn-icon btn-xl"&gt;
+                                  &lt;svg data-name="Icons/Tabler/Notification" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"&gt;
+                                    &lt;rect data-name="Icons/Tabler/Notification background" width="24" height="24" fill="none"&gt;&lt;/rect&gt;
+                                    &lt;path d="M6.162,19.63l-.005-.246v-.308H.926A.923.923,0,0,1,.471,17.35a4,4,0,0,0,1.956-2.66l.036-.229V10.726A9.492,9.492,0,0,1,7.292,2.873l.147-.08,0-.018A3.369,3.369,0,0,1,10.566.007L10.771,0a3.379,3.379,0,0,1,3.287,2.573l.045.22.147.08a9.556,9.556,0,0,1,4.806,7.541l.023.355-.007,3.582a4.016,4.016,0,0,0,2,3,.924.924,0,0,1-.329,1.719l-.126.008H15.387v.308a4.616,4.616,0,0,1-9.225.246ZM8,19.385a2.769,2.769,0,0,0,5.532.189l.007-.189v-.308H8ZM9.242,3.228l-.012.238-.005.045L9.2,3.63l-.039.113-.054.107-.035.055L9,4l-.036.038-.05.046-.1.074L8.7,4.219A7.7,7.7,0,0,0,4.332,10.46l-.022.309-.007,3.8a5.875,5.875,0,0,1-.94,2.541l-.084.119H18.266l-.007-.012a6.007,6.007,0,0,1-.983-2.452l-.043-.306V10.812a7.674,7.674,0,0,0-4.4-6.593.919.919,0,0,1-.518-.7l-.009-.132a1.538,1.538,0,0,0-3.069-.157Z" transform="translate(1.499)" fill="#fff"&gt;&lt;/path&gt;
+                                  &lt;/svg&gt;
+                                &lt;/a&gt;
+                              &lt;/div&gt;
+                              &lt;small class="text-uppercase text-gray-600 d-block my-3"&gt;FREE SHIPPING&lt;/small&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/section&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Hero 6 </h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-6" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-6" data-bs-toggle="pill" href="#pills-result-6" role="tab" aria-controls="pills-result-6" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-6" data-bs-toggle="pill" href="#pills-html-6" role="tab" aria-controls="pills-html-6" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-6">
+                <div class="tab-pane fade p-4 show active" id="pills-result-6" role="tabpanel" aria-labelledby="pills-result-tab-6">
+                  <section class="muse-section bg-blue-800 education-template">
+                    <div class="container">
+                      <div class="row align-items-center pb-5 g-0">
+                        <div class="col-lg-6 order-lg-2 text-lg-end mb-4 mb-lg-0">
+                          <img src="../assets/img/templates/education-banner.svg" class="img-fluid" alt="Banner">
+                        </div>
+                        <div class="col-lg-6">
+                          <h2 class="h1 display-3 text-white">Remote online courses made simple.</h2>
+                          <p class="big mt-3 text-white lh-lg">Duis quis ex ultrices, consectetur neque sed, blandit elit. In vitae est et est maximus lacinia. Aliquam erat volutpat.</p>
+                          <div class="mt-4 pt-3">
+                            <a href="javascript:void(0);" class="btn btn-xl btn-danger me-3">Start Now</a>
+                            <a href="javascript:void(0);" class="btn btn-link text-white font-weight-normal">30 Day Free Trial</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="philo-section">
+                      <div class="has-shape top-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1920 143.649">
+                          <path id="Path_2" data-name="Path 2" d="M0,55.558S368.667-36.174,768.667,23.553s593.365,64.118,810,47.555S1920,7.579,1920,7.579V147H0Z" transform="translate(0 -3.351)" fill="#dc3545"></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class="tab-pane fade" id="pills-html-6" role="tabpanel" aria-labelledby="pills-html-tab-6">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;section class="muse-section bg-blue-800 education-template"&gt;
+                        &lt;div class="container"&gt;
+                          &lt;div class="row align-items-center pb-5 g-0"&gt;
+                            &lt;div class="col-lg-6 order-lg-2 text-lg-end mb-4 mb-lg-0"&gt;
+                              &lt;img src="../assets/img/templates/education-banner.svg" class="img-fluid" alt="Banner"&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-lg-6"&gt;
+                              &lt;h1 class="display-3 text-white"&gt;Remote online courses made simple.&lt;/h1&gt;
+                              &lt;p class="big mt-3 text-white lh-lg"&gt;Duis quis ex ultrices, consectetur neque sed, blandit elit. In vitae est et est maximus lacinia. Aliquam erat volutpat.&lt;/p&gt;
+                              &lt;div class="mt-4 pt-3"&gt;
+                                &lt;a href="javascript:void(0);" class="btn btn-xl btn-danger me-3"&gt;Start Now&lt;/a&gt;
+                                &lt;a href="javascript:void(0);" class="btn btn-link text-white font-weight-normal"&gt;30 Day Free Trial&lt;/a&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="philo-section"&gt;
+                          &lt;div class="has-shape top-0"&gt;
+                            &lt;svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1920 143.649"&gt;
+                              &lt;path id="Path_2" data-name="Path 2" d="M0,55.558S368.667-36.174,768.667,23.553s593.365,64.118,810,47.555S1920,7.579,1920,7.579V147H0Z" transform="translate(0 -3.351)" fill="#dc3545"&gt;&lt;/path&gt;
+                            &lt;/svg&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/section&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Hero 7 </h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-7" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-7" data-bs-toggle="pill" href="#pills-result-7" role="tab" aria-controls="pills-result-7" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-7" data-bs-toggle="pill" href="#pills-html-7" role="tab" aria-controls="pills-html-7" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-7">
+                <div class="tab-pane fade p-4 show active" id="pills-result-7" role="tabpanel" aria-labelledby="pills-result-tab-7">
+                  <div class="studio-template">
+                    <section class="muse-section">
+                      <div class="container">
+                        <div class="row align-items-center pb-lg-5">
+                          <div class="col-lg-6 order-lg-2 text-lg-end">
+                            <img src="../assets/img/templates/studio-banner.png" class="img-fluid" alt="Banner">
+                          </div>
+                          <div class="col-lg-6 mt-4 mt-lg-0">
+                            <h6>We power brands like yours</h6>
+                            <h2 class="h1 display-4">Branding digital platforms.</h2>
+                            <p class="big text-black-600 lh-lg pe-lg-5">Design, build, collaborate, and bring your ideas to life with the world’s most popular and intuitive 3d design platform.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-html-7" role="tabpanel" aria-labelledby="pills-html-tab-7">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;div class="studio-template"&gt;
+                        &lt;section class="muse-section"&gt;
+                          &lt;div class="container"&gt;
+                            &lt;div class="row align-items-center pb-lg-5"&gt;
+                              &lt;div class="col-lg-6 order-lg-2 text-lg-end"&gt;
+                                &lt;img src="../assets/img/templates/studio-banner.png" class="img-fluid" alt="Banner"&gt;
+                              &lt;/div&gt;
+                              &lt;div class="col-lg-6 mt-4 mt-lg-0"&gt;
+                                &lt;h6&gt;We power brands like yours&lt;/h6&gt;
+                                &lt;h1 class="display-4"&gt;Branding digital platforms.&lt;/h1&gt;
+                                &lt;p class="big text-black-600 lh-lg pe-lg-5"&gt;Design, build, collaborate, and bring your ideas to life with the world’s most popular and intuitive 3d design platform.&lt;/p&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/section&gt;
+                      &lt;/div&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Hero 8</h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-8" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-8" data-bs-toggle="pill" href="#pills-result-8" role="tab" aria-controls="pills-result-8" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-8" data-bs-toggle="pill" href="#pills-html-8" role="tab" aria-controls="pills-html-8" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-8">
+                <div class="tab-pane fade p-4 show active" id="pills-result-8" role="tabpanel" aria-labelledby="pills-result-tab-8">
+                  <div class="saas3-template bg-gray-100 pb-5">
+                    <section class="muse-section banner-section bg-cyan-600 pb-0">
+                      <div class="container">
+                        <div class="row align-items-center">
+                          <div class="col-lg-10 m-auto text-center">
+                            <div class="my-3">
+                              <h2 class="h1 display-3 text-white">Speed prototyping <br>with no compromise</h2>
+                              <h4 class="mb-0 pb-3 mt-3 text-white">Design, build, collaborate, and prototype</h4>
+                            </div>
+                            <div class="mt-1 mt-md-5 has-circle aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">
+                              <div class="inner-has-circle">
+                                <div class="rounded-12 shadow-dark-80 overlay-center">
+                                  <img src="../assets/img/templates/comprose.png" class="img-fluid shadow-dark-80 rounded-6" alt="Figma">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="has-shape bg-gray-100">
+                        <svg width="100%" height="100%" viewBox="0 0 1920 236" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g transform="translate(0.000000, -970.000000)" fill="#0aa2c0">
+                              <g transform="translate(-2.000000, 214.000000)">
+                                <path d="M2,992 C324.951165,853.958547 641.951165,812.636301 953,868.033261 C1264.04884,923.430222 1587.04884,905.507676 1922,814.265623 L1925.27362,759.808598 L0.694852245,756.601701 L2,992 Z" id="Background"></path>
+                              </g>
+                            </g>
+                          </g>
+                        </svg>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-html-8" role="tabpanel" aria-labelledby="pills-html-tab-8">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;div class="saas3-template bg-gray-100"&gt;
+                        &lt;section class="muse-section banner-section bg-cyan-600 pb-0"&gt;
+                          &lt;div class="container"&gt;
+                            &lt;div class="row align-items-center"&gt;
+                              &lt;div class="col-lg-10 m-auto text-center"&gt;
+                                &lt;div class="my-3"&gt;
+                                  &lt;h1 class="display-3 text-white"&gt;Speed prototyping &lt;br&gt;with no compromise&lt;/h1&gt;
+                                  &lt;h4 class="mb-0 pb-3 mt-3 text-white"&gt;Design, build, collaborate, and prototype&lt;/h4&gt;
+                                &lt;/div&gt;
+                                &lt;div class="mt-1 mt-md-5 has-circle aos-init aos-animate" data-aos="fade-up" data-aos-delay="600"&gt;
+                                  &lt;div class="inner-has-circle"&gt;
+                                    &lt;div class="rounded-12 shadow-dark-80 overlay-center"&gt;
+                                      &lt;img src="../assets/img/templates/comprose.png" class="img-fluid shadow-dark-80 rounded-6" alt="Figma"&gt;
+                                    &lt;/div&gt;
+                                  &lt;/div&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;div class="has-shape bg-gray-100"&gt;
+                            &lt;svg width="100%" height="100%" viewBox="0 0 1920 236" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"&gt;
+                              &lt;g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"&gt;
+                                &lt;g transform="translate(0.000000, -970.000000)" fill="#0aa2c0"&gt;
+                                  &lt;g transform="translate(-2.000000, 214.000000)"&gt;
+                                    &lt;path d="M2,992 C324.951165,853.958547 641.951165,812.636301 953,868.033261 C1264.04884,923.430222 1587.04884,905.507676 1922,814.265623 L1925.27362,759.808598 L0.694852245,756.601701 L2,992 Z" id="Background"&gt;&lt;/path&gt;
+                                  &lt;/g&gt;
+                                &lt;/g&gt;
+                              &lt;/g&gt;
+                            &lt;/svg&gt;
+                          &lt;/div&gt;
+                        &lt;/section&gt;
+                      &lt;/div&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Hero 9 </h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-9" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-9" data-bs-toggle="pill" href="#pills-result-9" role="tab" aria-controls="pills-result-9" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-9" data-bs-toggle="pill" href="#pills-html-9" role="tab" aria-controls="pills-html-9" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-9">
+                <div class="tab-pane fade p-4 show active" id="pills-result-9" role="tabpanel" aria-labelledby="pills-result-tab-9">
+                  <div class="agency-template bg-dark">
+                    <section class="muse-section">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-lg-6 col-xl-5">
+                            <h2 class="h1 display-4">Super devoted coding agency</h2>
+                            <h4>Making life easier for business owners and startups</h4>
+                            <div class="mt-5 mb-4">
+                              <small class="d-block text-secondary font-weight-semibold">Site of the day</small>
+                              <img src="../assets/img/templates/awwwards.svg" alt="img">
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-xl-7 mt-auto">
+                            <div class="text-lg-end aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">
+                              <img src="../assets/img/templates/agency-banner.svg" alt="img">
+                            </div>
+                          </div>
+                        </div>
+                        <hr class="my-0">
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-html-9" role="tabpanel" aria-labelledby="pills-html-tab-9">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;section class="muse-section"&gt;
+                        &lt;div class="container"&gt;
+                          &lt;div class="row"&gt;
+                            &lt;div class="col-lg-6 col-xl-5"&gt;
+                              &lt;h1 class="display-4"&gt;Super devoted coding agency&lt;/h1&gt;
+                              &lt;h4&gt;Making life easier for business owners and startups&lt;/h4&gt;
+                              &lt;div class="mt-5 mb-4"&gt;
+                                &lt;small class="d-block text-secondary font-weight-semibold"&gt;Site of the day&lt;/small&gt;
+                                &lt;img src="../assets/img/templates/awwwards.svg" alt="img"&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-lg-6 col-xl-7 mt-auto"&gt;
+                              &lt;div class="text-lg-end aos-init aos-animate" data-aos="fade-up" data-aos-delay="600"&gt;
+                                &lt;img src="../assets/img/templates/agency-banner.svg" alt="img"&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;hr class="my-0"&gt;
+                        &lt;/div&gt;
+                      &lt;/section&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- JS Global Compulsory -->
+<script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JS Implementing Plugins -->
+<script src="../documentation/assets/vendor/prism/prism.js"></script>
+<script src="../assets/vendor/simplebar/dist/simplebar.min.js"></script>
+
+<script>
+  //Muse Sidebar Toggle JavaScript
+  var elem = document.body;
+  function toggleClass(){
+    elem.classList.toggle("sidebar-show");  // Toggle hide class
+  }
+</script>
+</body>
+</html>

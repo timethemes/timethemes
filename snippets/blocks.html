@@ -1,0 +1,1580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Features Blocks - Muse Snippets | Muse - Bootstrap 5 Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../favicon.ico">
+
+
+  <!-- Muse Plugins CSS -->
+  <link rel="stylesheet" href="../documentation/assets/vendor/prism/prism.css">
+  <link href="../assets/vendor/simplebar/dist/simplebar.min.css" rel="stylesheet" type="text/css" media="all">
+  <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" media="all">
+  <!-- CSS Muse Template -->
+  <link rel="stylesheet" href="../assets/css/theme.min.css">
+
+  <!-- CSS Muse Doc -->
+  <link rel="stylesheet" href="../documentation/assets/css/docs.css">
+</head>
+<body class="pages-template">
+  <!-- Muse Documentation -->
+<div class="muse-documentation">
+	<header class="doc-header bg-white px-3 px-md-4 shadow-sm position-fixed">
+		<nav class="navbar navbar-expand-lg has-header-inner py-0">
+			<a class="navbar-brand" href="index.html">
+				<svg xmlns="http://www.w3.org/2000/svg" width="78.395" height="22.585" viewBox="0 0 78.395 22.585">
+  <path data-name="Combined Shape" d="M66.578,21.587a7.332,7.332,0,0,1-3.028-2.762,7.653,7.653,0,0,1-1.066-4.012,7.74,7.74,0,0,1,1.052-4,7.381,7.381,0,0,1,2.888-2.777A8.953,8.953,0,0,1,74.554,8a6.983,6.983,0,0,1,2.816,2.732,8.148,8.148,0,0,1,1.023,3.984v.165l-.017.25-.005.059a.913.913,0,0,1-.86.783H66.735l.025.111.031.131a3.685,3.685,0,0,0,1.481,2.166,4.991,4.991,0,0,0,2.948.841,5.991,5.991,0,0,0,2.147-.361,5.08,5.08,0,0,0,1.033-.6.917.917,0,0,1,1.171.091l.036.037,1.2,1.36.04.053a.993.993,0,0,1,.188.724.437.437,0,0,1-.185.293,10.861,10.861,0,0,1-5.738,1.766A9.933,9.933,0,0,1,66.578,21.587Zm1.541-10.594a3.767,3.767,0,0,0-1.293,2.324l-.035.214h7.916l-.015-.106-.023-.136a3.81,3.81,0,0,0-1.287-2.281,3.932,3.932,0,0,0-2.617-.905A4.017,4.017,0,0,0,68.119,10.994ZM49.469,22.029a13.745,13.745,0,0,1-2.132-.729l-.015-.007-.056-.027a.787.787,0,0,1-.362-1.052l.687-1.364.032-.062a1.238,1.238,0,0,1,.941-.665.514.514,0,0,1,.2.04,11.691,11.691,0,0,0,4.876,1.054h.055l.265,0,.1,0,.2-.009.193-.013.121-.01.233-.02.22-.022.063-.007.031,0h.011l.2-.025.189-.027.177-.03.028-.005.056-.011.159-.033.031-.008.032-.007.012,0,.142-.039c.636-.187.908-.487.908-1,0-.465-.4-.848-1.162-1.108a6.757,6.757,0,0,0-.671-.185l-.2-.042-.139-.028c-.227-.044-.481-.086-.774-.131l-.257-.036-.271-.035-.283-.034-.282-.041-.278-.041-.36-.058-.214-.035A21.474,21.474,0,0,1,50,15.686a5.1,5.1,0,0,1-2.213-1.261,3.377,3.377,0,0,1-.913-2.537,3.807,3.807,0,0,1,.867-2.453A5.686,5.686,0,0,1,50.3,7.745a12.031,12.031,0,0,1,4.045-.614,17.356,17.356,0,0,1,3.454.351,12.263,12.263,0,0,1,1.811.55l.049.021a.833.833,0,0,1,.455.481.759.759,0,0,1-.04.6l-.7,1.387-.03.053a.9.9,0,0,1-.768.416.938.938,0,0,1-.3-.05,13.066,13.066,0,0,0-3.926-.824,5.321,5.321,0,0,0-2.391.418,1.342,1.342,0,0,0-.868,1.184,1.213,1.213,0,0,0,.954,1.166c.076.027.166.055.288.09l.159.043.262.065.287.064.206.042.218.041.347.061.246.04.391.06.275.04.181.029.356.057.342.059.332.058.473.089.3.06.288.061.185.04c.29.066.573.136.842.209a4.909,4.909,0,0,1,2.165,1.247,3.335,3.335,0,0,1,.9,2.481,3.674,3.674,0,0,1-.88,2.409,5.765,5.765,0,0,1-2.611,1.661,12.791,12.791,0,0,1-4.138.6A17.209,17.209,0,0,1,49.469,22.029Zm-7.5.463-.072,0a1.327,1.327,0,0,1-1.278-1.31V20.131l-.318.347-.121.129a5.951,5.951,0,0,1-2,1.367,6.876,6.876,0,0,1-2.676.518,6.719,6.719,0,0,1-4.834-1.706A6.756,6.756,0,0,1,28.894,15.7V8.444l0-.069a1.334,1.334,0,0,1,1.348-1.243h1.541l.072,0a1.329,1.329,0,0,1,1.278,1.31v6.727c.038,2.521,1.182,3.8,3.4,3.8a3.7,3.7,0,0,0,2.79-1.108,4.555,4.555,0,0,0,1.055-3.252V8.444l0-.069a1.332,1.332,0,0,1,1.347-1.243h1.542l.072,0a1.328,1.328,0,0,1,1.277,1.31V21.181l0,.069a1.332,1.332,0,0,1-1.347,1.243Zm-18.184,0-.072,0A1.322,1.322,0,0,1,22.42,21.2V14.229a4.078,4.078,0,0,0-.833-2.68,3.031,3.031,0,0,0-2.385-.955,3.584,3.584,0,0,0-2.723,1.064,4.4,4.4,0,0,0-1,3.117V21.2l0,.068a1.332,1.332,0,0,1-1.361,1.22H12.558l-.072,0A1.322,1.322,0,0,1,11.2,21.2V14.25c-.037-2.425-1.12-3.656-3.218-3.656a3.546,3.546,0,0,0-2.694,1.064,4.4,4.4,0,0,0-1,3.117V21.2l0,.068a1.332,1.332,0,0,1-1.361,1.22H1.363l-.073,0A1.321,1.321,0,0,1,0,21.2V8.647l0-.068a1.331,1.331,0,0,1,1.361-1.22H2.708l.073,0a1.322,1.322,0,0,1,1.29,1.287V9.4l.317-.343L4.5,8.935a5.752,5.752,0,0,1,2-1.306,7.549,7.549,0,0,1,2.777-.5,7.039,7.039,0,0,1,2.99.621A5.205,5.205,0,0,1,14.4,9.547l.138.2.155-.187.113-.134a6.414,6.414,0,0,1,2.3-1.658,8.045,8.045,0,0,1,3.217-.637,6.494,6.494,0,0,1,4.652,1.637A6.53,6.53,0,0,1,26.7,13.7V21.2l0,.068a1.332,1.332,0,0,1-1.361,1.22Zm13.706-20.3a2.194,2.194,0,1,1,2.194,2.2A2.194,2.194,0,0,1,37.489,2.194Zm-5.852,0a2.194,2.194,0,1,1,2.194,2.2A2.194,2.194,0,0,1,31.637,2.194Z" fill="#1e1e1e"/>
+</svg>
+      </a>
+      <div class="text-end d-block d-xl-none order-md-2 ms-auto">
+        <a href="javascript:void(0);" class="aside-toggle" onclick="toggleClass()">
+          <img src="../assets/svg/icons/hamburger@20.svg" class="menu-icon" alt="Menu">        
+          <img src="../assets/svg/icons/close@20.svg" class="menu-close" alt="Menu Close">
+        </a>
+      </div>
+      <ul class="nav nav-classic nav-sm border-0 nav-docs-space ms-auto">
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3" target="_blank" href="../documentation/index.html">
+            <span class="d-none d-sm-block">Documentation</span>
+            <span class="d-sm-none">Docs</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3 active" href="index.html">Snippets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center px-2 px-sm-3" target="_blank" href="../html/templates/saas-style-one.html">Templates</a>
+        </li>
+      </ul>
+		</nav>
+  </header>
+  <div class="container-fluid main-docs">
+    <div class="row justify-content-lg-end">
+      <nav class="col-lg-3 col-xl-2 musesidebar navbar-expand-lg ms-2 px-0 muse-sidebar">
+        <div class="collapse navbar-collapse show" id="sidebar-nav">
+          <div id="sidebarNav" class="musesidebar-scrollbar musesidebar-sticky ps-2 ps-md-0 pe-2 accordion" data-simplebar>
+            <ul class="musesidebar-nav mb-0">
+              <li class="musesidebar-item"><a class="musesidebar-link" href="index.html">Introduction</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="nav-menus.html">Nav Menus</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="footers.html">Footers</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="heroes.html">Heroes</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="clients.html">Clients</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="pricing.html">Pricing</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="call-to-action.html">Call to action</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="team.html">Team</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="faq.html">FAQ's</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="gallery.html">Gallery</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="testimonials.html">Testimonials</a></li>
+            </ul>
+            <a class="musesidebar-heading mb-0" data-bs-toggle="collapse" href="#customize-collapse" role="button" aria-expanded="true">Features</a>
+            <ul class="musesidebar-nav collapse show mb-0" id="customize-collapse" data-bs-parent="#sidebarNav">
+              <li class="musesidebar-item"><a class="musesidebar-link active" href="blocks.html">Blocks</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="features-cards.html">Cards</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="features-icons.html">Icons</a></li>
+            </ul>
+            <a class="musesidebar-heading mb-0 collapsed" data-bs-toggle="collapse" href="#content-collapse" role="button" aria-expanded="false">Content</a>
+            <ul class="musesidebar-nav collapse mb-0" id="content-collapse" data-bs-parent="#sidebarNav">
+              <li class="musesidebar-item"><a class="musesidebar-link" href="content-blocks.html">Blocks</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="content-cards.html">Cards</a></li>
+            </ul>
+            <a class="musesidebar-heading mb-0 collapsed" data-bs-toggle="collapse" href="#text-collapse" role="button" aria-expanded="false">Text</a>
+            <ul class="musesidebar-nav collapse mb-0" id="text-collapse" data-bs-parent="#sidebarNav">
+              <li class="musesidebar-item"><a class="musesidebar-link" href="text-list.html">List</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="text-block.html">Block</a></li>
+            </ul>
+            <a class="musesidebar-heading mb-0 collapsed" data-bs-toggle="collapse" href="#form-collapse" role="button" aria-expanded="false">Form</a>
+            <ul class="musesidebar-nav collapse mb-0" id="form-collapse" data-bs-parent="#sidebarNav">
+              <li class="musesidebar-item"><a class="musesidebar-link" href="form-single.html">Single</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="form-block.html">Block</a></li>
+              <li class="musesidebar-item"><a class="musesidebar-link" href="form-account.html">Account</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="col-xl-10 muse-docs-content"> 
+        <div class="p-0 p-md-4">
+          <div class="musedocs-content-divider">
+            <h1>Features Blocks</h1>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Component 1</h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-1" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-1" data-bs-toggle="pill" href="#pills-result-1" role="tab" aria-controls="pills-result-1" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-1" data-bs-toggle="pill" href="#pills-html-1" role="tab" aria-controls="pills-html-1" aria-selected="false">HTML</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-js-tab-1" data-bs-toggle="pill" href="#pills-js-1" role="tab" aria-controls="pills-js-1" aria-selected="false">JS</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-1">
+                <div class="tab-pane fade p-4 show active z-index-none" id="pills-result-1" role="tabpanel" aria-labelledby="pills-result-tab-1">
+                  <div class="container">
+                    <!-- Muse Section -->
+                    <section class="muse-section text-center">
+                      <h2 class="display-4 mb-4">
+                        Design in
+                        <span id="type-captions" style="display: none;">
+                          <span>&nbsp;</span>
+                          <span>Figma</span>
+                          <span>Adobe XD</span>
+                          <span>Sketch</span>
+                        </span>
+                        <span id="muse-type" class="type-line" style="white-space:pre;">Sketch</span>
+                      </h2>
+                      <div class="row">
+                        <div class="col-md-9 col-xl-8 m-auto">
+                          <p class="big pb-0 pb-md-3 text-black-600 lh-lg">Add live animations and 3d elements to your design with our incredibly powerful plugin. Collaborate and share ideas with your team members and export assets for developers Instantly. </p>
+                        </div>
+                      </div>
+                      <div class="mt-1 mt-md-4 overlay-center">
+                        <img src="../assets/img/templates/figma.png" class="img-fluid shadow-dark-80 rounded-6" alt="Figma">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-lg btn-success rounded-pill">
+                          <svg class="me-2" data-name="icons/tabler/play-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                            <rect data-name="Icons/Tabler/Play Fill background" width="16" height="16" fill="none"></rect>
+                            <path d="M0,.687V15.313a.672.672,0,0,0,1.025.584L12.68,8.584a.693.693,0,0,0,0-1.168L1.025.1A.672.672,0,0,0,0,.687Z" transform="translate(3)" fill="#ffffff"></path>
+                          </svg> See it in action</a>
+                      </div>
+                      <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-body pt-0">
+                              <button type="button" class="btn-close float-end modal-close bg-transparent" data-bs-dismiss="modal" aria-label="Close">
+                                <img src="../assets/svg/icons/close1.svg" alt="Close">
+                              </button>
+                              <div class="ratio ratio-16x9 mt-4 mb-4">
+                                <iframe class="mt-3" src="https://www.youtube.com/embed/zypUBKsov1k" title="YouTube video" allowfullscreen=""></iframe>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-html-1" role="tabpanel" aria-labelledby="pills-html-tab-1">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;!-- Muse Section --&gt;
+                      &lt;section class="muse-section text-center"&gt;
+                        &lt;h2 class="display-4 mb-4"&gt;
+                          Design in
+                          &lt;span id="type-captions" style="display: none;"&gt;
+                            &lt;span&gt;&nbsp;&lt;/span&gt;
+                            &lt;span&gt;Figma&lt;/span&gt;
+                            &lt;span&gt;Adobe XD&lt;/span&gt;
+                            &lt;span&gt;Sketch&lt;/span&gt;
+                          &lt;/span&gt;
+                          &lt;span id="muse-type" class="type-line" style="white-space:pre;"&gt;Sketch&lt;/span&gt;
+                        &lt;/h2&gt;
+                        &lt;div class="row"&gt;
+                          &lt;div class="col-md-9 col-xl-8 m-auto"&gt;
+                            &lt;p class="big pb-0 pb-md-3 text-black-600 lh-lg"&gt;Add live animations and 3d elements to your design with our incredibly powerful plugin. Collaborate and share ideas with your team members and export assets for developers Instantly. &lt;/p&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                        &lt;div class="mt-1 mt-md-4 overlay-center"&gt;
+                          &lt;img src="../assets/img/templates/figma.png" class="img-fluid shadow-dark-80 rounded-6" alt="Figma"&gt;
+                          &lt;a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-lg btn-success rounded-pill"&gt;
+                            &lt;svg class="me-2" data-name="icons/tabler/play-fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"&gt;
+                              &lt;rect data-name="Icons/Tabler/Play Fill background" width="16" height="16" fill="none"&gt;&lt;/rect&gt;
+                              &lt;path d="M0,.687V15.313a.672.672,0,0,0,1.025.584L12.68,8.584a.693.693,0,0,0,0-1.168L1.025.1A.672.672,0,0,0,0,.687Z" transform="translate(3)" fill="#ffffff"&gt;&lt;/path&gt;
+                            &lt;/svg&gt; See it in action&lt;/a&gt;
+                        &lt;/div&gt;
+                        &lt;div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-hidden="true"&gt;
+                          &lt;div class="modal-dialog modal-lg modal-dialog-centered"&gt;
+                            &lt;div class="modal-content"&gt;
+                              &lt;div class="modal-body pt-0"&gt;
+                                &lt;button type="button" class="btn-close float-end modal-close" data-bs-dismiss="modal" aria-label="Close"&gt;
+                                  &lt;img src="../assets/svg/icons/close1.svg" alt="Close"&gt;
+                                &lt;/button&gt;
+                                &lt;div class="ratio ratio-16x9 mt-4 mb-4"&gt;
+                                  &lt;iframe class="mt-3" src="https://www.youtube.com/embed/zypUBKsov1k" title="YouTube video" allowfullscreen=""&gt;&lt;/iframe&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/div&gt;
+                      &lt;/section&gt;
+                    </code>
+                  </pre>
+                </div>
+                <div class="tab-pane fade" id="pills-js-1" role="tabpanel" aria-labelledby="pills-js-tab-1">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="js">
+                      &lt;script src="../assets/vendor/typed.js/lib/typed.min.js"&gt;&lt;/script&gt;
+                      &lt;script&gt;
+                        //Muse Typed JavaScript
+                        var typed = new Typed("#muse-type", {
+                          stringsElement: '#type-captions',
+                          typeSpeed: 150,
+                          backSpeed: 50,
+                          backDelay: 1500,
+                          startDelay: 1000,
+                          loop: true,
+                        });
+                      &lt;/script&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Component 2</h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-2" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-2" data-bs-toggle="pill" href="#pills-result-2" role="tab" aria-controls="pills-result-2" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-2" data-bs-toggle="pill" href="#pills-html-2" role="tab" aria-controls="pills-html-2" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-2">
+                <div class="tab-pane fade p-4 show active" id="pills-result-2" role="tabpanel" aria-labelledby="pills-result-tab-2">
+                  <div class="container">
+                    <!-- Muse Section -->
+                    <section class="muse-section">
+                      <div class="row">
+                        <div class="col-lg-5">
+                          <h6>Integrations</h6>
+                          <h2 class="mt-2 h1">Latest and most powerful platforms</h2>
+                          <p class="mt-3 lh-lg">Add live animations and 3d elements to your design with our incredibly powerful plugin. Collaborate and share ideas with your team members and export assets for developers Instantly.</p>
+                          <div class="mt-3 mt-md-4 mb-2">
+                            <a href="javascript:void(0);" class="btn btn-lg btn-link link-success">See Integrations <svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 18">
+                              <path d="M.293.293a1,1,0,0,1,1.3-.1l.112.1,8,8a1,1,0,0,1,.1,1.3l-.1.112-8,8A1,1,0,0,1,.2,16.405l.1-.112L7.585,9,.293,1.707A1,1,0,0,1,.2.405Z" transform="translate(0 0)" fill="#20c997"></path>
+                            </svg></a>
+                          </div>
+                        </div>
+                        <div class="col-lg-7">
+                          <ul class="feature-list">
+                            <li class="aos-init aos-animate">
+                              <a href="javascript:void(0);" class="transition-3d-hover"><img src="../assets/img/templates/airbnb.svg" alt="Airbnb"></a>
+                            </li>
+                            <li class="aos-init aos-animate">
+                              <a href="javascript:void(0);" class="transition-3d-hover"><img src="../assets/img/templates/dropbox-2.svg" alt="Dropbox"></a>
+                            </li>
+                            <li class="aos-init aos-animate">
+                              <a href="javascript:void(0);" class="transition-3d-hover"><img src="../assets/img/templates/figma.svg" alt="Figma"></a>
+                            </li>
+                            <li class="aos-init aos-animate">
+                              <a href="javascript:void(0);" class="transition-3d-hover"><img src="../assets/img/templates/slack.svg" alt="Slack"></a>
+                            </li>
+                            <li class="aos-init aos-animate">
+                              <a href="javascript:void(0);" class="transition-3d-hover"><img src="../assets/img/templates/evernote.svg" alt="Evernote"></a>
+                            </li>
+                            <li class="aos-init aos-animate">
+                              <a href="javascript:void(0);" class="transition-3d-hover"><img src="../assets/img/templates/zeplin.svg" alt="Zeplin"></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-html-2" role="tabpanel" aria-labelledby="pills-html-tab-2">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;div class="container"&gt;
+                        &lt;!-- Muse Section --&gt;
+                        &lt;section class="muse-section"&gt;
+                          &lt;div class="row"&gt;
+                            &lt;div class="col-lg-5"&gt;
+                              &lt;h6&gt;Integrations&lt;/h6&gt;
+                              &lt;h2 class="mt-2 h1"&gt;Latest and most powerful platforms&lt;/h2&gt;
+                              &lt;p class="mt-3 lh-lg"&gt;Add live animations and 3d elements to your design with our incredibly powerful plugin. Collaborate and share ideas with your team members and export assets for developers Instantly.&lt;/p&gt;
+                              &lt;div class="mt-3 mt-md-4 mb-2"&gt;
+                                &lt;a href="javascript:void(0);" class="btn btn-lg btn-link link-success"&gt;See Integrations &lt;svg class="ms-1" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 18"&gt;
+                                  &lt;path d="M.293.293a1,1,0,0,1,1.3-.1l.112.1,8,8a1,1,0,0,1,.1,1.3l-.1.112-8,8A1,1,0,0,1,.2,16.405l.1-.112L7.585,9,.293,1.707A1,1,0,0,1,.2.405Z" transform="translate(0 0)" fill="#20c997"&gt;&lt;/path&gt;
+                                &lt;/svg&gt;&lt;/a&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-lg-7"&gt;
+                              &lt;ul class="feature-list"&gt;
+                                &lt;li class="aos-init aos-animate"&gt;
+                                  &lt;a href="javascript:void(0);" class="transition-3d-hover"&gt;&lt;img src="../assets/img/templates/airbnb.svg" alt="Airbnb"&gt;&lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class="aos-init aos-animate"&gt;
+                                  &lt;a href="javascript:void(0);" class="transition-3d-hover"&gt;&lt;img src="../assets/img/templates/dropbox-2.svg" alt="Dropbox"&gt;&lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class="aos-init aos-animate"&gt;
+                                  &lt;a href="javascript:void(0);" class="transition-3d-hover"&gt;&lt;img src="../assets/img/templates/figma.svg" alt="Figma"&gt;&lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class="aos-init aos-animate"&gt;
+                                  &lt;a href="javascript:void(0);" class="transition-3d-hover"&gt;&lt;img src="../assets/img/templates/slack.svg" alt="Slack"&gt;&lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class="aos-init aos-animate"&gt;
+                                  &lt;a href="javascript:void(0);" class="transition-3d-hover"&gt;&lt;img src="../assets/img/templates/evernote.svg" alt="Evernote"&gt;&lt;/a&gt;
+                                &lt;/li&gt;
+                                &lt;li class="aos-init aos-animate"&gt;
+                                  &lt;a href="javascript:void(0);" class="transition-3d-hover"&gt;&lt;img src="../assets/img/templates/zeplin.svg" alt="Zeplin"&gt;&lt;/a&gt;
+                                &lt;/li&gt;
+                              &lt;/ul&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/section&gt;
+                      &lt;/div&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Component 3 </h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-3" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-3" data-bs-toggle="pill" href="#pills-result-3" role="tab" aria-controls="pills-result-3" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-3" data-bs-toggle="pill" href="#pills-html-3" role="tab" aria-controls="pills-html-3" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-3">
+                <div class="tab-pane fade p-4 show active" id="pills-result-3" role="tabpanel" aria-labelledby="pills-result-tab-3">
+                  <div class="container">
+                    <!-- Muse Section -->
+                    <section class="muse-section">
+                      <div class="row align-items-center">
+                        <div class="col-lg-5">
+                          <div class="pe-lg-4">
+                            <h2 class="h1">We care about your wellbeing</h2>
+                            <ul class="number-list pt-1">
+                              <li>
+                                <div><small class="circle circle-lg">1</small></div>
+                                <span>Top of the line equipment and tools</span>
+                              </li>
+                              <li>
+                                <div><small class="circle circle-lg">2</small></div>
+                                <span>Leading doctors and nurses in the industry</span>
+                              </li>
+                              <li>
+                                <div><small class="circle circle-lg">3</small></div>
+                                <span>Easy Followups and appointment booking</span>
+                              </li>
+                              <li>
+                                <div><small class="circle circle-lg">4</small></div>
+                                <span>24/7 phone support and case assistance</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-lg-7">
+                          <img src="../assets/img/templates/about-clinic.jpg" class="img-fluid w-100 rounded-12" alt="Travel">
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-html-3" role="tabpanel" aria-labelledby="pills-html-tab-3">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;div class="container"&gt;
+                        &lt;!-- Muse Section --&gt;
+                        &lt;section class="muse-section"&gt;
+                          &lt;div class="row align-items-center"&gt;
+                            &lt;div class="col-lg-5"&gt;
+                              &lt;div class="pe-lg-4"&gt;
+                                &lt;h2 class="h1"&gt;We care about your wellbeing&lt;/h2&gt;
+                                &lt;ul class="number-list pt-1"&gt;
+                                  &lt;li&gt;
+                                    &lt;div&gt;&lt;small class="circle circle-lg"&gt;1&lt;/small&gt;&lt;/div&gt;
+                                    &lt;span&gt;Top of the line equipment and tools&lt;/span&gt;
+                                  &lt;/li&gt;
+                                  &lt;li&gt;
+                                    &lt;div&gt;&lt;small class="circle circle-lg"&gt;2&lt;/small&gt;&lt;/div&gt;
+                                    &lt;span&gt;Leading doctors and nurses in the industry&lt;/span&gt;
+                                  &lt;/li&gt;
+                                  &lt;li&gt;
+                                    &lt;div&gt;&lt;small class="circle circle-lg"&gt;3&lt;/small&gt;&lt;/div&gt;
+                                    &lt;span&gt;Easy Followups and appointment booking&lt;/span&gt;
+                                  &lt;/li&gt;
+                                  &lt;li&gt;
+                                    &lt;div&gt;&lt;small class="circle circle-lg"&gt;4&lt;/small&gt;&lt;/div&gt;
+                                    &lt;span&gt;24/7 phone support and case assistance&lt;/span&gt;
+                                  &lt;/li&gt;
+                                &lt;/ul&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-lg-7"&gt;
+                              &lt;img src="../assets/img/templates/about-clinic.jpg" class="img-fluid w-100 rounded-12" alt="Travel"&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/section&gt;
+                      &lt;/div&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Component 4 </h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-4" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-4" data-bs-toggle="pill" href="#pills-result-4" role="tab" aria-controls="pills-result-4" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-4" data-bs-toggle="pill" href="#pills-html-4" role="tab" aria-controls="pills-html-4" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-4">
+                <div class="tab-pane fade p-4 show active" id="pills-result-4" role="tabpanel" aria-labelledby="pills-result-tab-4">
+                  <div class="bg-black-800 saas-template">
+                    <div class="container">
+                      <!-- Muse Section -->
+                      <section class="muse-section">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <h5>Drag and drop</h5>
+                            <h2 class="h1 mb-3">Drag and drop components</h2>
+                            <p class="has-line big lh-lg">The main goal was to further improve Sketch user interface for a non-obstructive workflow while maintaining familiarity.</p>
+                            <a href="#" class="btn btn-link mt-3 link-danger mb-4">See Integrations <svg class="ms-2" data-name="icons/tabler/chevron right" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 16 16">
+                              <rect data-name="Icons/Tabler/Chevron Right background" width="16" height="16" fill="none"></rect>
+                              <path d="M.26.26A.889.889,0,0,1,1.418.174l.1.086L8.629,7.371a.889.889,0,0,1,.086,1.157l-.086.1L1.517,15.74A.889.889,0,0,1,.174,14.582l.086-.1L6.743,8,.26,1.517A.889.889,0,0,1,.174.36Z" transform="translate(4)" fill="#dc3545"></path>
+                            </svg></a>
+                          </div>
+                          <div class="col-md-6">
+                            <div class="row text-center intigration-element">
+                              <div class="col-4 px-3 px-lg-4">
+                                <div class="rounded-12 bg-gray-800 py-3 h-100">
+                                  <a href="#" class="p-4 d-block"><img src="../assets/img/templates/smilies.svg" alt="img"></a>
+                                  <a href="#" class="p-4 d-block"><img src="../assets/img/templates/number6.svg" alt="img"></a>
+                                  <a href="#" class="p-4 d-block"><img src="../assets/img/templates/placeholder2.svg" alt="img"></a>
+                                  <a href="#" class="p-4 d-block"><img src="../assets/img/templates/start-icon.svg" alt="img"></a>
+                                </div>
+                              </div>
+                              <div class="col-4 px-3 px-lg-4">
+                                <div class="rounded-12 bg-gray-800 py-3 h-100">
+                                  <a href="#" class="p-4 d-block"><img src="../assets/img/templates/heart.svg" alt="img"></a>
+                                  <a href="#" class="p-4 d-block"><img src="../assets/img/templates/active-user.svg" alt="img"></a>
+                                  <a href="#" class="p-4 d-block"><img src="../assets/img/templates/fish.svg" alt="img"></a>
+                                  <a href="#" class="p-4 d-block"><img src="../assets/img/templates/icon20.svg" alt="img"></a>
+                                </div>
+                              </div>
+                              <div class="col-4 px-3 px-lg-4">
+                                <div class="rounded-12 bg-gray-800 py-3 h-100">
+                                  <a href="#" class="p-4 d-block"><img src="../assets/img/templates/revenue.svg" alt="img"></a>
+                                  <a href="#" class="p-4 d-block"><img src="../assets/img/templates/hand-wash.svg" alt="img"></a>
+                                  <a href="#" class="p-4 d-block"><img src="../assets/img/templates/abacus.svg" alt="img"></a>
+                                  <a href="#" class="p-4 d-block"><img src="../assets/img/templates/angry-girl.svg" alt="img"></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-html-4" role="tabpanel" aria-labelledby="pills-html-tab-4">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;div class="bg-black-800 saas-template"&gt;
+                        &lt;div class="container"&gt;
+                          &lt;!-- Muse Section --&gt;
+                          &lt;section class="muse-section"&gt;
+                            &lt;div class="row"&gt;
+                              &lt;div class="col-md-6"&gt;
+                                &lt;h5&gt;Drag and drop&lt;/h5&gt;
+                                &lt;h2 class="h1 mb-3"&gt;Drag and drop components&lt;/h2&gt;
+                                &lt;p class="has-line big lh-lg"&gt;The main goal was to further improve Sketch user interface for a non-obstructive workflow while maintaining familiarity.&lt;/p&gt;
+                                &lt;a href="#" class="btn btn-link mt-3 link-danger mb-4"&gt;See Integrations &lt;svg class="ms-2" data-name="icons/tabler/chevron right" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 16 16"&gt;
+                                  &lt;rect data-name="Icons/Tabler/Chevron Right background" width="16" height="16" fill="none"&gt;&lt;/rect&gt;
+                                  &lt;path d="M.26.26A.889.889,0,0,1,1.418.174l.1.086L8.629,7.371a.889.889,0,0,1,.086,1.157l-.086.1L1.517,15.74A.889.889,0,0,1,.174,14.582l.086-.1L6.743,8,.26,1.517A.889.889,0,0,1,.174.36Z" transform="translate(4)" fill="#dc3545"&gt;&lt;/path&gt;
+                                &lt;/svg&gt;&lt;/a&gt;
+                              &lt;/div&gt;
+                              &lt;div class="col-md-6"&gt;
+                                &lt;div class="row text-center intigration-element"&gt;
+                                  &lt;div class="col-4 px-3 px-lg-4"&gt;
+                                    &lt;div class="rounded-12 bg-gray-800 py-3 h-100"&gt;
+                                      &lt;a href="#" class="p-4 d-block"&gt;&lt;img src="../assets/img/templates/smilies.svg" alt="img"&gt;&lt;/a&gt;
+                                      &lt;a href="#" class="p-4 d-block"&gt;&lt;img src="../assets/img/templates/number6.svg" alt="img"&gt;&lt;/a&gt;
+                                      &lt;a href="#" class="p-4 d-block"&gt;&lt;img src="../assets/img/templates/placeholder2.svg" alt="img"&gt;&lt;/a&gt;
+                                      &lt;a href="#" class="p-4 d-block"&gt;&lt;img src="../assets/img/templates/start-icon.svg" alt="img"&gt;&lt;/a&gt;
+                                    &lt;/div&gt;
+                                  &lt;/div&gt;
+                                  &lt;div class="col-4 px-3 px-lg-4"&gt;
+                                    &lt;div class="rounded-12 bg-gray-800 py-3 h-100"&gt;
+                                      &lt;a href="#" class="p-4 d-block"&gt;&lt;img src="../assets/img/templates/heart.svg" alt="img"&gt;&lt;/a&gt;
+                                      &lt;a href="#" class="p-4 d-block"&gt;&lt;img src="../assets/img/templates/active-user.svg" alt="img"&gt;&lt;/a&gt;
+                                      &lt;a href="#" class="p-4 d-block"&gt;&lt;img src="../assets/img/templates/fish.svg" alt="img"&gt;&lt;/a&gt;
+                                      &lt;a href="#" class="p-4 d-block"&gt;&lt;img src="../assets/img/templates/icon20.svg" alt="img"&gt;&lt;/a&gt;
+                                    &lt;/div&gt;
+                                  &lt;/div&gt;
+                                  &lt;div class="col-4 px-3 px-lg-4"&gt;
+                                    &lt;div class="rounded-12 bg-gray-800 py-3 h-100"&gt;
+                                      &lt;a href="#" class="p-4 d-block"&gt;&lt;img src="../assets/img/templates/revenue.svg" alt="img"&gt;&lt;/a&gt;
+                                      &lt;a href="#" class="p-4 d-block"&gt;&lt;img src="../assets/img/templates/hand-wash.svg" alt="img"&gt;&lt;/a&gt;
+                                      &lt;a href="#" class="p-4 d-block"&gt;&lt;img src="../assets/img/templates/abacus.svg" alt="img"&gt;&lt;/a&gt;
+                                      &lt;a href="#" class="p-4 d-block"&gt;&lt;img src="../assets/img/templates/angry-girl.svg" alt="img"&gt;&lt;/a&gt;
+                                    &lt;/div&gt;
+                                  &lt;/div&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/section&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Component 5</h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-5" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-5" data-bs-toggle="pill" href="#pills-result-5" role="tab" aria-controls="pills-result-5" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-5" data-bs-toggle="pill" href="#pills-html-5" role="tab" aria-controls="pills-html-5" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-5">
+                <div class="tab-pane fade p-4 show active" id="pills-result-5" role="tabpanel" aria-labelledby="pills-result-tab-5">
+                  <div class="bg-black-800 saas-template">
+                    <div class="container">
+                      <!-- Muse Section -->
+                      <section class="muse-section">
+                        <div class="row">
+                          <div class="col-xl-9">
+                            <h2 class="display-4 mb-3">Trusted by millions of users.</h2>
+                            <p class="has-line big mb-2 lh-lg">The main goal was to further improve Sketch user interface for a non-obstructive workflow while maintaining familiarity.</p>
+                          </div>
+                        </div>
+                        <div class="row align-items-center mt-3 mt-md-5">
+                          <div class="col-xl-4 col-lg-5">
+                            <div class="nav flex-column tabs-has" id="pills-tab" role="tablist" aria-orientation="vertical">
+                              <a class="nav-link active" id="pills-revamped-tab" data-bs-toggle="pill" href="#pills-revamped" role="tab" aria-controls="pills-revamped" aria-selected="true">
+                                <span class="d-block mb-1 h4">Revamped icons</span>
+                                <span class="d-block text-white small lh-lg">Lorem Ipsum is simply dummy text of the printing and typesettingry.</span>
+                              </a>
+                              <a class="nav-link" id="pills-gui-tab" data-bs-toggle="pill" href="#pills-gui" role="tab" aria-controls="pills-gui" aria-selected="false">
+                                <span class="d-block mb-1 h4">New GUI</span>
+                                <span class="d-block text-white small lh-lg">Lorem Ipsum is simply dummy text of the printing and typesettingry.</span>
+                              </a>
+                              <a class="nav-link mb-0" id="pills-collaboration-tab" data-bs-toggle="pill" href="#pills-collaboration" role="tab" aria-controls="pills-collaboration" aria-selected="false">
+                                <span class="d-block mb-1 h4">Collaboration</span>
+                                <span class="d-block text-white small lh-lg">Lorem Ipsum is simply dummy text of the printing and typesettingry.</span>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-xl-8 col-lg-7">
+                            <div class="tab-content" id="pills-tabContent">
+                              <div class="tab-pane fade show active" id="pills-revamped" role="tabpanel" aria-labelledby="pills-revamped-tab">
+                                <div class="overlay-center">
+                                  <img src="../assets/img/templates/saas-tab.svg" alt="img" class="rounded-12">
+                                </div>
+                              </div>
+                              <div class="tab-pane fade" id="pills-gui" role="tabpanel" aria-labelledby="pills-gui-tab">
+                                <div class="overlay-center">
+                                  <img src="../assets/img/templates/saas-tab.svg" alt="img" class="rounded-12">
+                                </div>
+                              </div>
+                              <div class="tab-pane fade" id="pills-collaboration" role="tabpanel" aria-labelledby="pills-collaboration-tab">
+                                <div class="overlay-center">
+                                  <img src="../assets/img/templates/saas-tab.svg" alt="img" class="rounded-12">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-html-5" role="tabpanel" aria-labelledby="pills-html-tab-5">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;div class="bg-black-800 saas-template"&gt;
+                        &lt;div class="container"&gt;
+                          &lt;!-- Muse Section --&gt;
+                          &lt;section class="muse-section"&gt;
+                            &lt;div class="row"&gt;
+                              &lt;div class="col-xl-9"&gt;
+                                &lt;h2 class="display-4 mb-3"&gt;Trusted by millions of users.&lt;/h2&gt;
+                                &lt;p class="has-line big mb-2 lh-lg"&gt;The main goal was to further improve Sketch user interface for a non-obstructive workflow while maintaining familiarity.&lt;/p&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="row align-items-center mt-3 mt-md-5"&gt;
+                              &lt;div class="col-xl-4 col-lg-5"&gt;
+                                &lt;div class="nav flex-column tabs-has" id="pills-tab" role="tablist" aria-orientation="vertical"&gt;
+                                  &lt;a class="nav-link active" id="pills-revamped-tab" data-bs-toggle="pill" href="#pills-revamped" role="tab" aria-controls="pills-revamped" aria-selected="true"&gt;
+                                    &lt;span class="d-block mb-1 h4"&gt;Revamped icons&lt;/span&gt;
+                                    &lt;span class="d-block text-white small lh-lg"&gt;Lorem Ipsum is simply dummy text of the printing and typesettingry.&lt;/span&gt;
+                                  &lt;/a&gt;
+                                  &lt;a class="nav-link" id="pills-gui-tab" data-bs-toggle="pill" href="#pills-gui" role="tab" aria-controls="pills-gui" aria-selected="false"&gt;
+                                    &lt;span class="d-block mb-1 h4"&gt;New GUI&lt;/span&gt;
+                                    &lt;span class="d-block text-white small lh-lg"&gt;Lorem Ipsum is simply dummy text of the printing and typesettingry.&lt;/span&gt;
+                                  &lt;/a&gt;
+                                  &lt;a class="nav-link mb-0" id="pills-collaboration-tab" data-bs-toggle="pill" href="#pills-collaboration" role="tab" aria-controls="pills-collaboration" aria-selected="false"&gt;
+                                    &lt;span class="d-block mb-1 h4"&gt;Collaboration&lt;/span&gt;
+                                    &lt;span class="d-block text-white small lh-lg"&gt;Lorem Ipsum is simply dummy text of the printing and typesettingry.&lt;/span&gt;
+                                  &lt;/a&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                              &lt;div class="col-xl-8 col-lg-7"&gt;
+                                &lt;div class="tab-content" id="pills-tabContent"&gt;
+                                  &lt;div class="tab-pane fade show active" id="pills-revamped" role="tabpanel" aria-labelledby="pills-revamped-tab"&gt;
+                                    &lt;div class="overlay-center"&gt;
+                                      &lt;img src="../assets/img/templates/saas-tab.svg" alt="img" class="rounded-12"&gt;
+                                    &lt;/div&gt;
+                                  &lt;/div&gt;
+                                  &lt;div class="tab-pane fade" id="pills-gui" role="tabpanel" aria-labelledby="pills-gui-tab"&gt;
+                                    &lt;div class="overlay-center"&gt;
+                                      &lt;img src="../assets/img/templates/saas-tab.svg" alt="img" class="rounded-12"&gt;
+                                    &lt;/div&gt;
+                                  &lt;/div&gt;
+                                  &lt;div class="tab-pane fade" id="pills-collaboration" role="tabpanel" aria-labelledby="pills-collaboration-tab"&gt;
+                                    &lt;div class="overlay-center"&gt;
+                                      &lt;img src="../assets/img/templates/saas-tab.svg" alt="img" class="rounded-12"&gt;
+                                    &lt;/div&gt;
+                                  &lt;/div&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/section&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Component 6</h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-6" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-6" data-bs-toggle="pill" href="#pills-result-6" role="tab" aria-controls="pills-result-6" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-6" data-bs-toggle="pill" href="#pills-html-6" role="tab" aria-controls="pills-html-6" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-6">
+                <div class="tab-pane fade p-4 show active" id="pills-result-6" role="tabpanel" aria-labelledby="pills-result-tab-6">
+                  <div class="bg-gray-100 ecommerce-template">
+                    <div class="container">
+                      <!-- Muse Section, Perfection Section -->
+                      <section class="muse-section perfection-section">
+                        <div class="row g-0 border-top">
+                          <div class="col-lg-12 col-xl-4 py-md-5 border-bottom">
+                            <h2 class="mb-2">COMMITED TO PERFECTION</h2>
+                            <p class="lh-lg pe-lg-5 me-xl-2">On the other hand, we denounce with righteous indignation and dislike men who are so beguiled.</p>
+                          </div>
+                          <div class="col-md-6 col-xl-4 border-start border-end border-bottom">
+                            <ul class="perfection-list">
+                              <li>
+                                <div>
+                                  <span class="bg-success circle circle-lg">
+                                    <svg data-name="icons/tabler/notification" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16">
+                                      <rect data-name="Icons/Tabler/Notification background" width="16" height="16" fill="none"></rect>
+                                      <path d="M4.108,13.087l0-.164v-.205H.617a.616.616,0,0,1-.3-1.151,2.668,2.668,0,0,0,1.3-1.773l.024-.153V7.151A6.328,6.328,0,0,1,4.861,1.915l.1-.053,0-.012A2.246,2.246,0,0,1,7.043,0L7.18,0A2.252,2.252,0,0,1,9.372,1.715l.03.147.1.053a6.371,6.371,0,0,1,3.2,5.027l.015.237,0,2.388a2.677,2.677,0,0,0,1.334,2,.616.616,0,0,1-.22,1.146l-.084.005H10.257v.205a3.077,3.077,0,0,1-6.15.164Zm1.227-.164a1.846,1.846,0,0,0,3.688.126l0-.126v-.205H5.334ZM6.161,2.152l-.008.158,0,.03-.016.08L6.107,2.5l-.036.071L6.047,2.6,6,2.667l-.024.025-.033.031-.066.049-.073.04A5.131,5.131,0,0,0,2.887,6.973l-.014.206,0,2.535a3.917,3.917,0,0,1-.626,1.694l-.056.079h9.991l0-.008a4,4,0,0,1-.655-1.634l-.029-.2V7.208a5.116,5.116,0,0,0-2.93-4.4.613.613,0,0,1-.346-.468l-.006-.088a1.026,1.026,0,0,0-2.046-.1Z" transform="translate(1)" fill="#ffffff"></path>
+                                    </svg>                        
+                                  </span>
+                                </div>
+                                <div class="perfection-right">
+                                  <h6 class="mb-2">SUPER FAST SHIPPING</h6>
+                                  <p class="small lh-lg text-gray-600 mb-1">On the other hand, we denounce with righteous indignation and</p>
+                                </div>
+                              </li>
+                              <li>
+                                <div>
+                                  <span class="bg-success circle circle-lg">
+                                    <svg data-name="icons/tabler/notification" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16">
+                                      <rect data-name="Icons/Tabler/Notification background" width="16" height="16" fill="none"></rect>
+                                      <path d="M4.108,13.087l0-.164v-.205H.617a.616.616,0,0,1-.3-1.151,2.668,2.668,0,0,0,1.3-1.773l.024-.153V7.151A6.328,6.328,0,0,1,4.861,1.915l.1-.053,0-.012A2.246,2.246,0,0,1,7.043,0L7.18,0A2.252,2.252,0,0,1,9.372,1.715l.03.147.1.053a6.371,6.371,0,0,1,3.2,5.027l.015.237,0,2.388a2.677,2.677,0,0,0,1.334,2,.616.616,0,0,1-.22,1.146l-.084.005H10.257v.205a3.077,3.077,0,0,1-6.15.164Zm1.227-.164a1.846,1.846,0,0,0,3.688.126l0-.126v-.205H5.334ZM6.161,2.152l-.008.158,0,.03-.016.08L6.107,2.5l-.036.071L6.047,2.6,6,2.667l-.024.025-.033.031-.066.049-.073.04A5.131,5.131,0,0,0,2.887,6.973l-.014.206,0,2.535a3.917,3.917,0,0,1-.626,1.694l-.056.079h9.991l0-.008a4,4,0,0,1-.655-1.634l-.029-.2V7.208a5.116,5.116,0,0,0-2.93-4.4.613.613,0,0,1-.346-.468l-.006-.088a1.026,1.026,0,0,0-2.046-.1Z" transform="translate(1)" fill="#ffffff"></path>
+                                    </svg>                        
+                                  </span>
+                                </div>
+                                <div class="perfection-right">
+                                  <h6 class="mb-2">30 DAY MONEY BACK</h6>
+                                  <p class="small lh-lg text-gray-600 mb-1">On the other hand, we denounce with righteous indignation and</p>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                          <div class="col-md-6 col-xl-4 border-bottom">
+                            <ul class="perfection-list">
+                              <li>
+                                <div>
+                                  <span class="bg-success circle circle-lg">
+                                    <svg data-name="icons/tabler/notification" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16">
+                                      <rect data-name="Icons/Tabler/Notification background" width="16" height="16" fill="none"></rect>
+                                      <path d="M4.108,13.087l0-.164v-.205H.617a.616.616,0,0,1-.3-1.151,2.668,2.668,0,0,0,1.3-1.773l.024-.153V7.151A6.328,6.328,0,0,1,4.861,1.915l.1-.053,0-.012A2.246,2.246,0,0,1,7.043,0L7.18,0A2.252,2.252,0,0,1,9.372,1.715l.03.147.1.053a6.371,6.371,0,0,1,3.2,5.027l.015.237,0,2.388a2.677,2.677,0,0,0,1.334,2,.616.616,0,0,1-.22,1.146l-.084.005H10.257v.205a3.077,3.077,0,0,1-6.15.164Zm1.227-.164a1.846,1.846,0,0,0,3.688.126l0-.126v-.205H5.334ZM6.161,2.152l-.008.158,0,.03-.016.08L6.107,2.5l-.036.071L6.047,2.6,6,2.667l-.024.025-.033.031-.066.049-.073.04A5.131,5.131,0,0,0,2.887,6.973l-.014.206,0,2.535a3.917,3.917,0,0,1-.626,1.694l-.056.079h9.991l0-.008a4,4,0,0,1-.655-1.634l-.029-.2V7.208a5.116,5.116,0,0,0-2.93-4.4.613.613,0,0,1-.346-.468l-.006-.088a1.026,1.026,0,0,0-2.046-.1Z" transform="translate(1)" fill="#ffffff"></path>
+                                    </svg>                        
+                                  </span>
+                                </div>
+                                <div class="perfection-right">
+                                  <h6 class="mb-2">24/7 SUPPORT</h6>
+                                  <p class="small lh-lg text-gray-600 mb-1">On the other hand, we denounce with righteous indignation and</p>
+                                </div>
+                              </li>
+                              <li>
+                                <div>
+                                  <span class="bg-success circle circle-lg">
+                                    <svg data-name="icons/tabler/notification" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16">
+                                      <rect data-name="Icons/Tabler/Notification background" width="16" height="16" fill="none"></rect>
+                                      <path d="M4.108,13.087l0-.164v-.205H.617a.616.616,0,0,1-.3-1.151,2.668,2.668,0,0,0,1.3-1.773l.024-.153V7.151A6.328,6.328,0,0,1,4.861,1.915l.1-.053,0-.012A2.246,2.246,0,0,1,7.043,0L7.18,0A2.252,2.252,0,0,1,9.372,1.715l.03.147.1.053a6.371,6.371,0,0,1,3.2,5.027l.015.237,0,2.388a2.677,2.677,0,0,0,1.334,2,.616.616,0,0,1-.22,1.146l-.084.005H10.257v.205a3.077,3.077,0,0,1-6.15.164Zm1.227-.164a1.846,1.846,0,0,0,3.688.126l0-.126v-.205H5.334ZM6.161,2.152l-.008.158,0,.03-.016.08L6.107,2.5l-.036.071L6.047,2.6,6,2.667l-.024.025-.033.031-.066.049-.073.04A5.131,5.131,0,0,0,2.887,6.973l-.014.206,0,2.535a3.917,3.917,0,0,1-.626,1.694l-.056.079h9.991l0-.008a4,4,0,0,1-.655-1.634l-.029-.2V7.208a5.116,5.116,0,0,0-2.93-4.4.613.613,0,0,1-.346-.468l-.006-.088a1.026,1.026,0,0,0-2.046-.1Z" transform="translate(1)" fill="#ffffff"></path>
+                                    </svg>                        
+                                  </span>
+                                </div>
+                                <div class="perfection-right">
+                                  <h6 class="mb-2">FREE RETURNS</h6>
+                                  <p class="small lh-lg text-gray-600 mb-1">On the other hand, we denounce with righteous indignation and</p>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="row pt-4">
+                          <div class="col-xl-7">
+                            <p class="small text-start text-gray-600 lh-lg mb-0">This order process is provided by Paddle.com, who handle all payment services, invoicing and download links. Need more information? You can always reach us at <a href="mailto:support@fabrx.co" class="text-gray-600">support@fabrx.co</a></p>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-html-6" role="tabpanel" aria-labelledby="pills-html-tab-6">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;div class="bg-black-800 saas-template"&gt;
+                        &lt;div class="container"&gt;
+                          &lt;!-- Muse Section, Perfection Section --&gt;
+                          &lt;section class="muse-section perfection-section"&gt;
+                            &lt;div class="row g-0 border-top"&gt;
+                              &lt;div class="col-lg-12 col-xl-4 py-md-5 border-bottom"&gt;
+                                &lt;h2 class="mb-2"&gt;COMMITED TO PERFECTION&lt;/h2&gt;
+                                &lt;p class="lh-lg pe-lg-5 me-xl-2"&gt;On the other hand, we denounce with righteous indignation and dislike men who are so beguiled.&lt;/p&gt;
+                              &lt;/div&gt;
+                              &lt;div class="col-md-6 col-xl-4 border-start border-end border-bottom"&gt;
+                                &lt;ul class="perfection-list"&gt;
+                                  &lt;li&gt;
+                                    &lt;div&gt;
+                                      &lt;span class="bg-success circle circle-lg"&gt;
+                                        &lt;svg data-name="icons/tabler/notification" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"&gt;
+                                          &lt;rect data-name="Icons/Tabler/Notification background" width="16" height="16" fill="none"&gt;&lt;/rect&gt;
+                                          &lt;path d="M4.108,13.087l0-.164v-.205H.617a.616.616,0,0,1-.3-1.151,2.668,2.668,0,0,0,1.3-1.773l.024-.153V7.151A6.328,6.328,0,0,1,4.861,1.915l.1-.053,0-.012A2.246,2.246,0,0,1,7.043,0L7.18,0A2.252,2.252,0,0,1,9.372,1.715l.03.147.1.053a6.371,6.371,0,0,1,3.2,5.027l.015.237,0,2.388a2.677,2.677,0,0,0,1.334,2,.616.616,0,0,1-.22,1.146l-.084.005H10.257v.205a3.077,3.077,0,0,1-6.15.164Zm1.227-.164a1.846,1.846,0,0,0,3.688.126l0-.126v-.205H5.334ZM6.161,2.152l-.008.158,0,.03-.016.08L6.107,2.5l-.036.071L6.047,2.6,6,2.667l-.024.025-.033.031-.066.049-.073.04A5.131,5.131,0,0,0,2.887,6.973l-.014.206,0,2.535a3.917,3.917,0,0,1-.626,1.694l-.056.079h9.991l0-.008a4,4,0,0,1-.655-1.634l-.029-.2V7.208a5.116,5.116,0,0,0-2.93-4.4.613.613,0,0,1-.346-.468l-.006-.088a1.026,1.026,0,0,0-2.046-.1Z" transform="translate(1)" fill="#ffffff"&gt;&lt;/path&gt;
+                                        &lt;/svg&gt;                        
+                                      &lt;/span&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="perfection-right"&gt;
+                                      &lt;h6 class="mb-2"&gt;SUPER FAST SHIPPING&lt;/h6&gt;
+                                      &lt;p class="small lh-lg text-gray-600 mb-1"&gt;On the other hand, we denounce with righteous indignation and&lt;/p&gt;
+                                    &lt;/div&gt;
+                                  &lt;/li&gt;
+                                  &lt;li&gt;
+                                    &lt;div&gt;
+                                      &lt;span class="bg-success circle circle-lg"&gt;
+                                        &lt;svg data-name="icons/tabler/notification" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"&gt;
+                                          &lt;rect data-name="Icons/Tabler/Notification background" width="16" height="16" fill="none"&gt;&lt;/rect&gt;
+                                          &lt;path d="M4.108,13.087l0-.164v-.205H.617a.616.616,0,0,1-.3-1.151,2.668,2.668,0,0,0,1.3-1.773l.024-.153V7.151A6.328,6.328,0,0,1,4.861,1.915l.1-.053,0-.012A2.246,2.246,0,0,1,7.043,0L7.18,0A2.252,2.252,0,0,1,9.372,1.715l.03.147.1.053a6.371,6.371,0,0,1,3.2,5.027l.015.237,0,2.388a2.677,2.677,0,0,0,1.334,2,.616.616,0,0,1-.22,1.146l-.084.005H10.257v.205a3.077,3.077,0,0,1-6.15.164Zm1.227-.164a1.846,1.846,0,0,0,3.688.126l0-.126v-.205H5.334ZM6.161,2.152l-.008.158,0,.03-.016.08L6.107,2.5l-.036.071L6.047,2.6,6,2.667l-.024.025-.033.031-.066.049-.073.04A5.131,5.131,0,0,0,2.887,6.973l-.014.206,0,2.535a3.917,3.917,0,0,1-.626,1.694l-.056.079h9.991l0-.008a4,4,0,0,1-.655-1.634l-.029-.2V7.208a5.116,5.116,0,0,0-2.93-4.4.613.613,0,0,1-.346-.468l-.006-.088a1.026,1.026,0,0,0-2.046-.1Z" transform="translate(1)" fill="#ffffff"&gt;&lt;/path&gt;
+                                        &lt;/svg&gt;                        
+                                      &lt;/span&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="perfection-right"&gt;
+                                      &lt;h6 class="mb-2"&gt;30 DAY MONEY BACK&lt;/h6&gt;
+                                      &lt;p class="small lh-lg text-gray-600 mb-1"&gt;On the other hand, we denounce with righteous indignation and&lt;/p&gt;
+                                    &lt;/div&gt;
+                                  &lt;/li&gt;
+                                &lt;/ul&gt;
+                              &lt;/div&gt;
+                              &lt;div class="col-md-6 col-xl-4 border-bottom"&gt;
+                                &lt;ul class="perfection-list"&gt;
+                                  &lt;li&gt;
+                                    &lt;div&gt;
+                                      &lt;span class="bg-success circle circle-lg"&gt;
+                                        &lt;svg data-name="icons/tabler/notification" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"&gt;
+                                          &lt;rect data-name="Icons/Tabler/Notification background" width="16" height="16" fill="none"&gt;&lt;/rect&gt;
+                                          &lt;path d="M4.108,13.087l0-.164v-.205H.617a.616.616,0,0,1-.3-1.151,2.668,2.668,0,0,0,1.3-1.773l.024-.153V7.151A6.328,6.328,0,0,1,4.861,1.915l.1-.053,0-.012A2.246,2.246,0,0,1,7.043,0L7.18,0A2.252,2.252,0,0,1,9.372,1.715l.03.147.1.053a6.371,6.371,0,0,1,3.2,5.027l.015.237,0,2.388a2.677,2.677,0,0,0,1.334,2,.616.616,0,0,1-.22,1.146l-.084.005H10.257v.205a3.077,3.077,0,0,1-6.15.164Zm1.227-.164a1.846,1.846,0,0,0,3.688.126l0-.126v-.205H5.334ZM6.161,2.152l-.008.158,0,.03-.016.08L6.107,2.5l-.036.071L6.047,2.6,6,2.667l-.024.025-.033.031-.066.049-.073.04A5.131,5.131,0,0,0,2.887,6.973l-.014.206,0,2.535a3.917,3.917,0,0,1-.626,1.694l-.056.079h9.991l0-.008a4,4,0,0,1-.655-1.634l-.029-.2V7.208a5.116,5.116,0,0,0-2.93-4.4.613.613,0,0,1-.346-.468l-.006-.088a1.026,1.026,0,0,0-2.046-.1Z" transform="translate(1)" fill="#ffffff"&gt;&lt;/path&gt;
+                                        &lt;/svg&gt;                        
+                                      &lt;/span&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="perfection-right"&gt;
+                                      &lt;h6 class="mb-2"&gt;24/7 SUPPORT&lt;/h6&gt;
+                                      &lt;p class="small lh-lg text-gray-600 mb-1"&gt;On the other hand, we denounce with righteous indignation and&lt;/p&gt;
+                                    &lt;/div&gt;
+                                  &lt;/li&gt;
+                                  &lt;li&gt;
+                                    &lt;div&gt;
+                                      &lt;span class="bg-success circle circle-lg"&gt;
+                                        &lt;svg data-name="icons/tabler/notification" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16"&gt;
+                                          &lt;rect data-name="Icons/Tabler/Notification background" width="16" height="16" fill="none"&gt;&lt;/rect&gt;
+                                          &lt;path d="M4.108,13.087l0-.164v-.205H.617a.616.616,0,0,1-.3-1.151,2.668,2.668,0,0,0,1.3-1.773l.024-.153V7.151A6.328,6.328,0,0,1,4.861,1.915l.1-.053,0-.012A2.246,2.246,0,0,1,7.043,0L7.18,0A2.252,2.252,0,0,1,9.372,1.715l.03.147.1.053a6.371,6.371,0,0,1,3.2,5.027l.015.237,0,2.388a2.677,2.677,0,0,0,1.334,2,.616.616,0,0,1-.22,1.146l-.084.005H10.257v.205a3.077,3.077,0,0,1-6.15.164Zm1.227-.164a1.846,1.846,0,0,0,3.688.126l0-.126v-.205H5.334ZM6.161,2.152l-.008.158,0,.03-.016.08L6.107,2.5l-.036.071L6.047,2.6,6,2.667l-.024.025-.033.031-.066.049-.073.04A5.131,5.131,0,0,0,2.887,6.973l-.014.206,0,2.535a3.917,3.917,0,0,1-.626,1.694l-.056.079h9.991l0-.008a4,4,0,0,1-.655-1.634l-.029-.2V7.208a5.116,5.116,0,0,0-2.93-4.4.613.613,0,0,1-.346-.468l-.006-.088a1.026,1.026,0,0,0-2.046-.1Z" transform="translate(1)" fill="#ffffff"&gt;&lt;/path&gt;
+                                        &lt;/svg&gt;                        
+                                      &lt;/span&gt;
+                                    &lt;/div&gt;
+                                    &lt;div class="perfection-right"&gt;
+                                      &lt;h6 class="mb-2"&gt;FREE RETURNS&lt;/h6&gt;
+                                      &lt;p class="small lh-lg text-gray-600 mb-1"&gt;On the other hand, we denounce with righteous indignation and&lt;/p&gt;
+                                    &lt;/div&gt;
+                                  &lt;/li&gt;
+                                &lt;/ul&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="row pt-4"&gt;
+                              &lt;div class="col-xl-7"&gt;
+                                &lt;p class="small text-start text-gray-600 lh-lg mb-0"&gt;This order process is provided by Paddle.com, who handle all payment services, invoicing and download links. Need more information? You can always reach us at &lt;a href="mailto:support@fabrx.co" class="text-gray-600"&gt;support@fabrx.co&lt;/a&gt;&lt;/p&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/section&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Component 7</h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-7" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-7" data-bs-toggle="pill" href="#pills-result-7" role="tab" aria-controls="pills-result-7" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-7" data-bs-toggle="pill" href="#pills-html-7" role="tab" aria-controls="pills-html-7" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-7">
+                <div class="tab-pane fade p-4 show active" id="pills-result-7" role="tabpanel" aria-labelledby="pills-result-tab-7">
+                  <div class="container">
+                    <!-- Muse Section -->
+                    <section class="muse-section">
+                      <div class="rounded-24 overflow-hidden bg-white shadow-dark-80">
+                        <div class="row g-0 align-items-center bg-teal-50">
+                          <div class="col-lg-6 text-center p-5">
+                            <img src="../assets/img/templates/passion.svg" alt="img">
+                          </div>
+                          <div class="col-lg-6 bg-white">
+                            <div class="p-4 p-lg-5 mx-md-3 mt-2 my-lg-5">
+                              <h3>Passion and finesse</h3>
+                              <p class="big mb-4 lh-lg">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                              <h3 class="pt-2">Precison and reach</h3>
+                              <p class="big lh-lg">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-html-7" role="tabpanel" aria-labelledby="pills-html-tab-7">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;div class="container"&gt;
+                        &lt;!-- Muse Section --&gt;
+                        &lt;section class="muse-section"&gt;
+                          &lt;div class="rounded-24 overflow-hidden bg-white shadow-dark-80"&gt;
+                            &lt;div class="row g-0 align-items-center bg-teal-50"&gt;
+                              &lt;div class="col-lg-6 text-center p-5"&gt;
+                                &lt;img src="../assets/img/templates/passion.svg" alt="img"&gt;
+                              &lt;/div&gt;
+                              &lt;div class="col-lg-6 bg-white"&gt;
+                                &lt;div class="p-4 p-lg-5 mx-md-3 mt-2 my-lg-5"&gt;
+                                  &lt;h3&gt;Passion and finesse&lt;/h3&gt;
+                                  &lt;p class="big mb-4 lh-lg"&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard&lt;/p&gt;
+                                  &lt;h3 class="pt-2"&gt;Precison and reach&lt;/h3&gt;
+                                  &lt;p class="big lh-lg"&gt;It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.&lt;/p&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/section&gt;
+                      &lt;/div&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Component 8</h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-8" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-8" data-bs-toggle="pill" href="#pills-result-8" role="tab" aria-controls="pills-result-8" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-8" data-bs-toggle="pill" href="#pills-html-8" role="tab" aria-controls="pills-html-8" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-8">
+                <div class="tab-pane fade p-4 show active" id="pills-result-8" role="tabpanel" aria-labelledby="pills-result-tab-8">
+                  <div class="bg-gray-100">
+                    <div class="container">
+                      <!-- Muse Section -->
+                      <section class="muse-section">
+                        <div class="row pb-md-5">
+                          <div class="col-lg-12 text-center">
+                            <h5>Integrations</h5>
+                            <h2 class="h1">Get going in 3 easy steps</h2>
+                          </div>
+                        </div>
+                        <ul class="step-list mb-4 mt-3">
+                          <li class="active">
+                            <span class="circle circle-lg bg-cyan-600">1</span>
+                            <h5 class="mb-1 mt-3">Add your site</h5>
+                            <p>Simply add your domain and verify it.</p>
+                          </li>
+                          <li class="active">
+                            <span class="circle circle-lg bg-cyan-600">2</span>
+                            <h5 class="mb-1 mt-3">Select tool</h5>
+                            <p>Copy and paste code to your site</p>
+                          </li>
+                          <li>
+                            <span class="circle circle-lg bg-gray-300">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="14.914" viewBox="0 0 20 14.914">
+                                <path d="M6.793,14.621l-6.5-6.5a1,1,0,0,1,0-1.414L1.707,5.293a1,1,0,0,1,1.414,0L7.5,9.672,16.879.293a1,1,0,0,1,1.414,0l1.414,1.414a1,1,0,0,1,0,1.414l-11.5,11.5a1,1,0,0,1-1.414,0Z" fill="#6c757d"></path>
+                              </svg>            
+                            </span>
+                            <h5 class="mb-1 mt-3">You’re done!</h5>
+                            <p>Start monitoring</p>
+                          </li>
+                        </ul>
+                        <div class="border-0 rounded-12 bg-cyan-600 text-center pt-5">
+                          <img src="../assets/img/templates/step2.jpg" alt="img" class="mt-4">
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-html-8" role="tabpanel" aria-labelledby="pills-html-tab-8">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;div class="container"&gt;
+                        &lt;!-- Muse Section --&gt;
+                        &lt;section class="muse-section"&gt;
+                          &lt;div class="row pb-md-5"&gt;
+                            &lt;div class="col-lg-12 text-center"&gt;
+                              &lt;h5&gt;Integrations&lt;/h5&gt;
+                              &lt;h2 class="h1"&gt;Get going in 3 easy steps&lt;/h2&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                          &lt;ul class="step-list mb-4 mt-3"&gt;
+                            &lt;li class="active"&gt;
+                              &lt;span class="circle circle-lg bg-cyan-600"&gt;1&lt;/span&gt;
+                              &lt;h5 class="mb-1 mt-3"&gt;Add your site&lt;/h5&gt;
+                              &lt;p&gt;Simply add your domain and verify it.&lt;/p&gt;
+                            &lt;/li&gt;
+                            &lt;li class="active"&gt;
+                              &lt;span class="circle circle-lg bg-cyan-600"&gt;2&lt;/span&gt;
+                              &lt;h5 class="mb-1 mt-3"&gt;Select tool&lt;/h5&gt;
+                              &lt;p&gt;Copy and paste code to your site&lt;/p&gt;
+                            &lt;/li&gt;
+                            &lt;li&gt;
+                              &lt;span class="circle circle-lg bg-gray-300"&gt;
+                                &lt;svg xmlns="http://www.w3.org/2000/svg" width="20" height="14.914" viewBox="0 0 20 14.914"&gt;
+                                  &lt;path d="M6.793,14.621l-6.5-6.5a1,1,0,0,1,0-1.414L1.707,5.293a1,1,0,0,1,1.414,0L7.5,9.672,16.879.293a1,1,0,0,1,1.414,0l1.414,1.414a1,1,0,0,1,0,1.414l-11.5,11.5a1,1,0,0,1-1.414,0Z" fill="#6c757d"&gt;&lt;/path&gt;
+                                &lt;/svg&gt;            
+                              &lt;/span&gt;
+                              &lt;h5 class="mb-1 mt-3"&gt;You’re done!&lt;/h5&gt;
+                              &lt;p&gt;Start monitoring&lt;/p&gt;
+                            &lt;/li&gt;
+                          &lt;/ul&gt;
+                          &lt;div class="border-0 rounded-12 bg-cyan-600 text-center pt-5"&gt;
+                            &lt;img src="../assets/img/templates/step2.jpg" alt="img" class="mt-4"&gt;
+                          &lt;/div&gt;
+                        &lt;/section&gt;
+                      &lt;/div&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Component 9</h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-9" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-9" data-bs-toggle="pill" href="#pills-result-9" role="tab" aria-controls="pills-result-9" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-9" data-bs-toggle="pill" href="#pills-html-9" role="tab" aria-controls="pills-html-9" aria-selected="false">HTML</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-js-tab-9" data-bs-toggle="pill" href="#pills-js-9" role="tab" aria-controls="pills-js-9" aria-selected="false">JS</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-9">
+                <div class="tab-pane fade p-4 show active" id="pills-result-9" role="tabpanel" aria-labelledby="pills-result-tab-9">
+                  <div class="bg-gray-100">
+                    <div class="container">
+                      <!-- Muse Section -->
+                      <section class="muse-section">
+                        <div class="row align-items-center">
+                          <div class="col-lg-6 order-lg-2">
+                            <div class="px-lg-5">
+                              <h5>Integrations</h5>
+                              <h2 class="h1 mb-3">Latest and most powerful tech.</h2>
+                              <p class="lh-lg">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia?</p>
+                              <div class="row">
+                                <div class="col-4">
+                                  <small class="text-gray-600">Plugins</small>
+                                  <h3 class="text-black-600 counter purecounter" data-purecounter-delay="50" data-purecounter-start="0" data-purecounter-end="354">354</h3>
+                                </div>
+                                <div class="col-4">
+                                  <small class="text-gray-600">Users</small>
+                                  <h3 class="text-black-600"><span class="counter purecounter" data-purecounter-delay="50" data-purecounter-start="0" data-purecounter-end="12">12</span>k</h3>
+                                </div>
+                                <div class="col-4">
+                                  <small class="text-gray-600">Symbols</small>
+                                  <h3 class="text-black-600 counter purecounter" data-purecounter-delay="50" data-purecounter-start="0" data-purecounter-end="89">89</h3>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-6">
+                            <div class="card border-0 rounded-24 shadow-dark-80 text-center overlay-center p-4 p-md-5 mt-4 mt-lg-0">
+                              <span>
+                                <img src="../assets/img/templates/powerfull.png" alt="img">
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-html-9" role="tabpanel" aria-labelledby="pills-html-tab-9">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;div class="container"&gt;
+                        &lt;!-- Muse Section --&gt;
+                        &lt;section class="muse-section"&gt;
+                          &lt;div class="row align-items-center"&gt;
+                            &lt;div class="col-lg-6 order-lg-2"&gt;
+                              &lt;div class="px-lg-5"&gt;
+                                &lt;h5&gt;Integrations&lt;/h5&gt;
+                                &lt;h2 class="h1 mb-3"&gt;Latest and most powerful tech.&lt;/h2&gt;
+                                &lt;p class="lh-lg"&gt;Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia?&lt;/p&gt;
+                                &lt;div class="row"&gt;
+                                  &lt;div class="col-4"&gt;
+                                    &lt;small class="text-gray-600"&gt;Plugins&lt;/small&gt;
+                                    &lt;h3 class="text-black-600 counter purecounter" data-purecounter-delay="50" data-purecounter-start="0" data-purecounter-end="354" data-purecounter-duration="0"&gt;354&lt;/h3&gt;
+                                  &lt;/div&gt;
+                                  &lt;div class="col-4"&gt;
+                                    &lt;small class="text-gray-600"&gt;Users&lt;/small&gt;
+                                    &lt;h3 class="text-black-600"&gt;&lt;span class="counter purecounter" data-purecounter-delay="50" data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="0"&gt;12&lt;/span&gt;k&lt;/h3&gt;
+                                  &lt;/div&gt;
+                                  &lt;div class="col-4"&gt;
+                                    &lt;small class="text-gray-600"&gt;Symbols&lt;/small&gt;
+                                    &lt;h3 class="text-black-600 counter purecounter" data-purecounter-delay="50" data-purecounter-start="0" data-purecounter-end="89" data-purecounter-duration="0"&gt;89&lt;/h3&gt;
+                                  &lt;/div&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-lg-6"&gt;
+                              &lt;div class="card border-0 rounded-24 shadow-dark-80 text-center overlay-center p-4 p-md-5 mt-4 mt-lg-0"&gt;
+                                &lt;span&gt;
+                                  &lt;img src="../assets/img/templates/powerfull.png" alt="img"&gt;
+                                &lt;/span&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/section&gt;
+                      &lt;/div&gt;
+                    </code>
+                  </pre>
+                </div>
+                <div class="tab-pane fade" id="pills-js-9" role="tabpanel" aria-labelledby="pills-js-tab-9">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="js">
+                      &lt;script src="../assets/vendor/purecounterjs/dist/purecounter.js"&gt;&lt;/script&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Component 10</h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-10" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-10" data-bs-toggle="pill" href="#pills-result-10" role="tab" aria-controls="pills-result-10" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-10" data-bs-toggle="pill" href="#pills-html-10" role="tab" aria-controls="pills-html-10" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-10">
+                <div class="tab-pane fade p-4 show active" id="pills-result-10" role="tabpanel" aria-labelledby="pills-result-tab-10">
+                  <div class="bg-gray-100 saas3-template">
+                    <div class="container">
+                      <!-- Muse Section -->
+                      <section class="muse-section">
+                        <div class="row align-items-center">
+                          <div class="col-lg-6">
+                            <div class="px-lg-5 pb-lg-0 pb-md-4">
+                              <h5>Integrations</h5>
+                              <h2 class="h1 mb-md-3">Latest and most powerful tech.</h2>
+                              <ul class="plan-features mb-4 mb-md-0">
+                                <li>
+                                  <small class="shadow-sm">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10">
+                                      <rect data-name="Icons/Tabler/Check background" width="10" height="10" fill="none"></rect>
+                                      <path d="M9.224.133a.455.455,0,0,1,.687.592L9.867.776,3.806,6.837a.455.455,0,0,1-.592.044l-.051-.044L.133,3.806a.455.455,0,0,1,.592-.687l.051.044L3.485,5.872Z" transform="translate(0 1.25)" fill="#20C997"></path>
+                                    </svg>                  
+                                  </small>
+                                  <div class="feature-right">
+                                    <strong class="mb-1 h5 d-block">Live statistics</strong>
+                                    <p>Add live animations and 3d elements to your design with our incredibly</p>
+                                  </div>
+                                </li>
+                                <li>
+                                  <small class="shadow-sm">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10">
+                                      <rect data-name="Icons/Tabler/Check background" width="10" height="10" fill="none"></rect>
+                                      <path d="M9.224.133a.455.455,0,0,1,.687.592L9.867.776,3.806,6.837a.455.455,0,0,1-.592.044l-.051-.044L.133,3.806a.455.455,0,0,1,.592-.687l.051.044L3.485,5.872Z" transform="translate(0 1.25)" fill="#20C997"></path>
+                                    </svg>                  
+                                  </small>
+                                  <div class="feature-right">
+                                    <strong class="mb-1 h5 d-block">Live statistics</strong>
+                                    <p>Add live animations and 3d elements to your design with our incredibly</p>
+                                  </div>
+                                </li>
+                                <li>
+                                  <small class="shadow-sm">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10">
+                                      <rect data-name="Icons/Tabler/Check background" width="10" height="10" fill="none"></rect>
+                                      <path d="M9.224.133a.455.455,0,0,1,.687.592L9.867.776,3.806,6.837a.455.455,0,0,1-.592.044l-.051-.044L.133,3.806a.455.455,0,0,1,.592-.687l.051.044L3.485,5.872Z" transform="translate(0 1.25)" fill="#20C997"></path>
+                                    </svg>                  
+                                  </small>
+                                  <div class="feature-right">
+                                    <strong class="mb-1 h5 d-block">Live statistics</strong>
+                                    <p>Add live animations and 3d elements to your design with our incredibly</p>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-lg-3 ps-lg-0 pe-lg-3">
+                            <div class="card performance-card border-0 rounded-24 text-center shadow-dark-80 mb-4 mb-md-5">
+                              <span class="circle bg-orange-80"><img src="../assets/img/templates/progress.svg" alt="img"></span>
+                              <h2 class="mb-0 display-3">19x</h2>
+                              <small class="text-gray-600">Faster performance</small>
+                            </div>
+                            <div class="card performance-card border-0 rounded-24 text-center shadow-dark-80">
+                              <span class="circle bg-purple-80"><img src="../assets/img/templates/battery-charge.svg" alt="img"></span>
+                              <h2 class="mb-0 display-3">80%</h2>
+                              <small class="text-gray-600">More efficent</small>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-lg-3 pe-lg-0 ps-lg-3">
+                            <div class="card performance-card border-0 rounded-24 text-center shadow-dark-80 my-4">
+                              <span class="circle bg-green-80"><img src="../assets/img/templates/plugin.svg" alt="img"></span>
+                              <h2 class="mb-0 display-3">56</h2>
+                              <small class="text-gray-600">New plugins</small>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-html-10" role="tabpanel" aria-labelledby="pills-html-tab-10">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;div class="bg-gray-100 saas3-template"&gt;
+                        &lt;div class="container"&gt;
+                          &lt;!-- Muse Section --&gt;
+                          &lt;section class="muse-section"&gt;
+                            &lt;div class="row align-items-center"&gt;
+                              &lt;div class="col-lg-6"&gt;
+                                &lt;div class="px-lg-5 pb-lg-0 pb-md-4"&gt;
+                                  &lt;h5&gt;Integrations&lt;/h5&gt;
+                                  &lt;h2 class="h1 mb-md-3"&gt;Latest and most powerful tech.&lt;/h2&gt;
+                                  &lt;ul class="plan-features mb-4 mb-md-0"&gt;
+                                    &lt;li&gt;
+                                      &lt;small class="shadow-sm"&gt;
+                                        &lt;svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10"&gt;
+                                          &lt;rect data-name="Icons/Tabler/Check background" width="10" height="10" fill="none"&gt;&lt;/rect&gt;
+                                          &lt;path d="M9.224.133a.455.455,0,0,1,.687.592L9.867.776,3.806,6.837a.455.455,0,0,1-.592.044l-.051-.044L.133,3.806a.455.455,0,0,1,.592-.687l.051.044L3.485,5.872Z" transform="translate(0 1.25)" fill="#20C997"&gt;&lt;/path&gt;
+                                        &lt;/svg&gt;                  
+                                      &lt;/small&gt;
+                                      &lt;div class="feature-right"&gt;
+                                        &lt;strong class="mb-1 h5 d-block"&gt;Live statistics&lt;/strong&gt;
+                                        &lt;p&gt;Add live animations and 3d elements to your design with our incredibly&lt;/p&gt;
+                                      &lt;/div&gt;
+                                    &lt;/li&gt;
+                                    &lt;li&gt;
+                                      &lt;small class="shadow-sm"&gt;
+                                        &lt;svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10"&gt;
+                                          &lt;rect data-name="Icons/Tabler/Check background" width="10" height="10" fill="none"&gt;&lt;/rect&gt;
+                                          &lt;path d="M9.224.133a.455.455,0,0,1,.687.592L9.867.776,3.806,6.837a.455.455,0,0,1-.592.044l-.051-.044L.133,3.806a.455.455,0,0,1,.592-.687l.051.044L3.485,5.872Z" transform="translate(0 1.25)" fill="#20C997"&gt;&lt;/path&gt;
+                                        &lt;/svg&gt;                  
+                                      &lt;/small&gt;
+                                      &lt;div class="feature-right"&gt;
+                                        &lt;strong class="mb-1 h5 d-block"&gt;Live statistics&lt;/strong&gt;
+                                        &lt;p&gt;Add live animations and 3d elements to your design with our incredibly&lt;/p&gt;
+                                      &lt;/div&gt;
+                                    &lt;/li&gt;
+                                    &lt;li&gt;
+                                      &lt;small class="shadow-sm"&gt;
+                                        &lt;svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 10 10"&gt;
+                                          &lt;rect data-name="Icons/Tabler/Check background" width="10" height="10" fill="none"&gt;&lt;/rect&gt;
+                                          &lt;path d="M9.224.133a.455.455,0,0,1,.687.592L9.867.776,3.806,6.837a.455.455,0,0,1-.592.044l-.051-.044L.133,3.806a.455.455,0,0,1,.592-.687l.051.044L3.485,5.872Z" transform="translate(0 1.25)" fill="#20C997"&gt;&lt;/path&gt;
+                                        &lt;/svg&gt;                  
+                                      &lt;/small&gt;
+                                      &lt;div class="feature-right"&gt;
+                                        &lt;strong class="mb-1 h5 d-block"&gt;Live statistics&lt;/strong&gt;
+                                        &lt;p&gt;Add live animations and 3d elements to your design with our incredibly&lt;/p&gt;
+                                      &lt;/div&gt;
+                                    &lt;/li&gt;
+                                  &lt;/ul&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                              &lt;div class="col-sm-6 col-lg-3 ps-lg-0 pe-lg-3"&gt;
+                                &lt;div class="card performance-card border-0 rounded-24 text-center shadow-dark-80 mb-4 mb-md-5"&gt;
+                                  &lt;span class="circle bg-orange-80"&gt;&lt;img src="../assets/img/templates/progress.svg" alt="img"&gt;&lt;/span&gt;
+                                  &lt;h2 class="mb-0 display-3"&gt;19x&lt;/h2&gt;
+                                  &lt;small class="text-gray-600"&gt;Faster performance&lt;/small&gt;
+                                &lt;/div&gt;
+                                &lt;div class="card performance-card border-0 rounded-24 text-center shadow-dark-80"&gt;
+                                  &lt;span class="circle bg-purple-80"&gt;&lt;img src="../assets/img/templates/battery-charge.svg" alt="img"&gt;&lt;/span&gt;
+                                  &lt;h2 class="mb-0 display-3"&gt;80%&lt;/h2&gt;
+                                  &lt;small class="text-gray-600"&gt;More efficent&lt;/small&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                              &lt;div class="col-sm-6 col-lg-3 pe-lg-0 ps-lg-3"&gt;
+                                &lt;div class="card performance-card border-0 rounded-24 text-center shadow-dark-80 my-4"&gt;
+                                  &lt;span class="circle bg-green-80"&gt;&lt;img src="../assets/img/templates/plugin.svg" alt="img"&gt;&lt;/span&gt;
+                                  &lt;h2 class="mb-0 display-3"&gt;56&lt;/h2&gt;
+                                  &lt;small class="text-gray-600"&gt;New plugins&lt;/small&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/section&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Component 11</h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-11" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-11" data-bs-toggle="pill" href="#pills-result-11" role="tab" aria-controls="pills-result-11" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-11" data-bs-toggle="pill" href="#pills-html-11" role="tab" aria-controls="pills-html-11" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-11">
+                <div class="tab-pane fade p-4 show active" id="pills-result-11" role="tabpanel" aria-labelledby="pills-result-tab-11">
+                  <div class="agency-template bg-dark">
+                    <div class="container">
+                      <!-- Muse Section -->
+                      <section class="muse-section">
+                        <div class="row pt-0 pt-md-5 align-items-center">
+                          <div class="col-lg-6 pb-5">
+                            <div class="pe-2 pe-md-5 me-0 me-md-5">
+                              <h6>Integrations</h6>
+                              <h2 class="h1 mb-3">Latest and most powerful tech.</h2>
+                              <p class="lh-lg big">Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia?</p>
+                              <a href="#" class="btn btn-lg btn-link mt-3">Learn More <svg class="ms-1" data-name="icons/tabler/chevron right" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 16 16">
+                                <rect data-name="Icons/Tabler/Chevron Right background" width="16" height="16" fill="none"></rect>
+                                <path d="M.26.26A.889.889,0,0,1,1.418.174l.1.086L8.629,7.371a.889.889,0,0,1,.086,1.157l-.086.1L1.517,15.74A.889.889,0,0,1,.174,14.582l.086-.1L6.743,8,.26,1.517A.889.889,0,0,1,.174.36Z" transform="translate(4)" fill="#ffffff"></path>
+                              </svg></a>
+                            </div>
+                          </div>
+                          <div class="col-lg-6 pt-5">
+                            <ul class="tech-list">
+                              <li>
+                                <a href="#" class="avatar avatar-xl bg-black-800 avatar-circle avatar-center"><img src="../assets/img/templates/sass.svg" alt="img"></a>
+                              </li>
+                              <li>
+                                <a href="#" class="avatar avatar-xl bg-black-800 avatar-circle avatar-center"><img src="../assets/img/templates/python.svg" alt="img"></a>
+                              </li>
+                              <li>
+                                <a href="#" class="avatar avatar-xl bg-black-800 avatar-circle avatar-center"><img src="../assets/img/templates/bootstrap.svg" alt="img"></a>
+                              </li>
+                              <li>
+                                <a href="#" class="avatar avatar-xl bg-black-800 avatar-circle avatar-center"><img src="../assets/img/templates/vue.svg" alt="img"></a>
+                              </li>
+                              <li>
+                                <a href="#" class="avatar avatar-xl bg-black-800 avatar-circle avatar-center"><img src="../assets/img/templates/angular.svg" alt="img"></a>
+                              </li>
+                              <li>
+                                <a href="#" class="avatar avatar-xl bg-black-800 avatar-circle avatar-center"><img src="../assets/img/templates/html5.svg" alt="img"></a>
+                              </li>
+                              <li>
+                                <a href="#" class="avatar avatar-xl bg-black-800 avatar-circle avatar-center"><img src="../assets/img/templates/react2.svg" alt="img"></a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-html-11" role="tabpanel" aria-labelledby="pills-html-tab-11">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;div class="agency-template bg-dark"&gt;
+                        &lt;div class="container"&gt;
+                          &lt;!-- Muse Section --&gt;
+                          &lt;section class="muse-section"&gt;
+                            &lt;div class="row pt-0 pt-md-5 align-items-center"&gt;
+                              &lt;div class="col-lg-6 pb-5"&gt;
+                                &lt;div class="pe-2 pe-md-5 me-0 me-md-5"&gt;
+                                  &lt;h6&gt;Integrations&lt;/h6&gt;
+                                  &lt;h2 class="h1 mb-3"&gt;Latest and most powerful tech.&lt;/h2&gt;
+                                  &lt;p class="lh-lg big"&gt;Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia?&lt;/p&gt;
+                                  &lt;a href="#" class="btn btn-lg btn-link mt-3"&gt;Learn More &lt;svg class="ms-1" data-name="icons/tabler/chevron right" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 16 16"&gt;
+                                    &lt;rect data-name="Icons/Tabler/Chevron Right background" width="16" height="16" fill="none"&gt;&lt;/rect&gt;
+                                    &lt;path d="M.26.26A.889.889,0,0,1,1.418.174l.1.086L8.629,7.371a.889.889,0,0,1,.086,1.157l-.086.1L1.517,15.74A.889.889,0,0,1,.174,14.582l.086-.1L6.743,8,.26,1.517A.889.889,0,0,1,.174.36Z" transform="translate(4)" fill="#ffffff"&gt;&lt;/path&gt;
+                                  &lt;/svg&gt;&lt;/a&gt;
+                                &lt;/div&gt;
+                              &lt;/div&gt;
+                              &lt;div class="col-lg-6 pt-5"&gt;
+                                &lt;ul class="tech-list"&gt;
+                                  &lt;li&gt;
+                                    &lt;a href="#" class="avatar avatar-xl bg-black-800 avatar-circle avatar-center"&gt;&lt;img src="../assets/img/templates/sass.svg" alt="img"&gt;&lt;/a&gt;
+                                  &lt;/li&gt;
+                                  &lt;li&gt;
+                                    &lt;a href="#" class="avatar avatar-xl bg-black-800 avatar-circle avatar-center"&gt;&lt;img src="../assets/img/templates/python.svg" alt="img"&gt;&lt;/a&gt;
+                                  &lt;/li&gt;
+                                  &lt;li&gt;
+                                    &lt;a href="#" class="avatar avatar-xl bg-black-800 avatar-circle avatar-center"&gt;&lt;img src="../assets/img/templates/bootstrap.svg" alt="img"&gt;&lt;/a&gt;
+                                  &lt;/li&gt;
+                                  &lt;li&gt;
+                                    &lt;a href="#" class="avatar avatar-xl bg-black-800 avatar-circle avatar-center"&gt;&lt;img src="../assets/img/templates/vue.svg" alt="img"&gt;&lt;/a&gt;
+                                  &lt;/li&gt;
+                                  &lt;li&gt;
+                                    &lt;a href="#" class="avatar avatar-xl bg-black-800 avatar-circle avatar-center"&gt;&lt;img src="../assets/img/templates/angular.svg" alt="img"&gt;&lt;/a&gt;
+                                  &lt;/li&gt;
+                                  &lt;li&gt;
+                                    &lt;a href="#" class="avatar avatar-xl bg-black-800 avatar-circle avatar-center"&gt;&lt;img src="../assets/img/templates/html5.svg" alt="img"&gt;&lt;/a&gt;
+                                  &lt;/li&gt;
+                                  &lt;li&gt;
+                                    &lt;a href="#" class="avatar avatar-xl bg-black-800 avatar-circle avatar-center"&gt;&lt;img src="../assets/img/templates/react2.svg" alt="img"&gt;&lt;/a&gt;
+                                  &lt;/li&gt;
+                                &lt;/ul&gt;
+                              &lt;/div&gt;
+                            &lt;/div&gt;
+                          &lt;/section&gt;
+                        &lt;/div&gt;
+                      &lt;/div&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+          <div class="hs-docs-content-divider">
+            <h4 class="hs-docs-heading">Component 12</h4>
+
+            <div class="tab-wrapper">
+              <!-- Nav Classic -->
+              <ul class="nav nav-classic" id="pills-tab-12" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="pills-result-tab-12" data-bs-toggle="pill" href="#pills-result-12" role="tab" aria-controls="pills-result-12" aria-selected="true">Preview</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="pills-html-tab-12" data-bs-toggle="pill" href="#pills-html-12" role="tab" aria-controls="pills-html-12" aria-selected="false">HTML</a>
+                </li>
+              </ul>
+              <!-- End Nav Classic -->
+
+              <!-- Tab Content -->
+              <div class="tab-content" id="pills-tabContent-12">
+                <div class="tab-pane fade p-4 show active" id="pills-result-12" role="tabpanel" aria-labelledby="pills-result-tab-12">
+                  <div class="container">
+                    <hr class="my-0 bg-gray-300">
+                    <!-- Muse Section -->
+                    <section class="muse-section">
+                      <div class="row">
+                        <div class="col-6 col-md-3 text-center my-2">
+                          <h3 class="display-4 mb-0"><span class="counter purecounter" data-purecounter-delay="50" data-purecounter-start="0" data-purecounter-end="120">120</span>+</h3>
+                          <p class="mb-0">Countries</p>
+                        </div>
+                        <div class="col-6 col-md-3 text-center my-2">
+                          <h3 class="display-4 mb-0"><span class="counter purecounter" data-purecounter-delay="50" data-purecounter-start="0" data-purecounter-end="3500">3500</span>+</h3>
+                          <p class="mb-0">Clients</p>
+                        </div>
+                        <div class="col-6 col-md-3 text-center my-2">
+                          <h3 class="display-4 mb-0"><span class="counter purecounter" data-purecounter-delay="50" data-purecounter-start="0" data-purecounter-end="120">120</span></h3>
+                          <p class="mb-0">Gadgets</p>
+                        </div>
+                        <div class="col-6 col-md-3 text-center my-2">
+                          <h3 class="display-4 mb-0"><span class="counter purecounter" data-purecounter-delay="50" data-purecounter-start="0" data-purecounter-end="455">455</span></h3>
+                          <p class="mb-0">Offices</p>
+                        </div>
+                      </div>
+                    </section>
+                    <hr class="my-md-0 bg-gray-300">
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="pills-html-12" role="tabpanel" aria-labelledby="pills-html-tab-12">
+                  <pre class="rounded">
+                    <code class="language-markup" data-lang="html">
+                      &lt;div class="container"&gt;
+                        &lt;hr class="my-0 bg-gray-300"&gt;
+                        &lt;!-- Muse Section --&gt;
+                        &lt;section class="muse-section"&gt;
+                          &lt;div class="row"&gt;
+                            &lt;div class="col-6 col-md-3 text-center my-2"&gt;
+                              &lt;h3 class="display-4 mb-0"&gt;&lt;span class="counter purecounter" data-purecounter-delay="50" data-purecounter-start="0" data-purecounter-end="120"&gt;120&lt;/span&gt;+&lt;/h3&gt;
+                              &lt;p class="mb-0"&gt;Countries&lt;/p&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-6 col-md-3 text-center my-2"&gt;
+                              &lt;h3 class="display-4 mb-0"&gt;&lt;span class="counter purecounter" data-purecounter-delay="50" data-purecounter-start="0" data-purecounter-end="3500"&gt;3500&lt;/span&gt;+&lt;/h3&gt;
+                              &lt;p class="mb-0"&gt;Clients&lt;/p&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-6 col-md-3 text-center my-2"&gt;
+                              &lt;h3 class="display-4 mb-0"&gt;&lt;span class="counter purecounter" data-purecounter-delay="50" data-purecounter-start="0" data-purecounter-end="120"&gt;120&lt;/span&gt;&lt;/h3&gt;
+                              &lt;p class="mb-0"&gt;Gadgets&lt;/p&gt;
+                            &lt;/div&gt;
+                            &lt;div class="col-6 col-md-3 text-center my-2"&gt;
+                              &lt;h3 class="display-4 mb-0"&gt;&lt;span class="counter purecounter" data-purecounter-delay="50" data-purecounter-start="0" data-purecounter-end="455"&gt;455&lt;/span&gt;&lt;/h3&gt;
+                              &lt;p class="mb-0"&gt;Offices&lt;/p&gt;
+                            &lt;/div&gt;
+                          &lt;/div&gt;
+                        &lt;/section&gt;
+                        &lt;hr class="my-md-0 bg-gray-300"&gt;
+                      &lt;/div&gt;
+                    </code>
+                  </pre>
+                </div>
+              </div>
+              <!-- End Tab Content -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- JS Global Compulsory -->
+<script src="../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JS Implementing Plugins -->
+<script src="../documentation/assets/vendor/prism/prism.js"></script>
+<script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="../assets/vendor/typed.js/lib/typed.min.js"></script>
+<script src="../assets/vendor/purecounterjs/dist/purecounter.js"></script>
+<script src="../assets/vendor/simplebar/dist/simplebar.min.js"></script>
+
+<script>
+  //Muse Sidebar Toggle JavaScript
+  var elem = document.body;
+  function toggleClass(){
+    elem.classList.toggle("sidebar-show");  // Toggle hide class
+  }
+
+  //Muse Typed JavaScript
+  var typed = new Typed("#muse-type", {
+    stringsElement: '#type-captions',
+    typeSpeed: 150,
+    backSpeed: 50,
+    backDelay: 1500,
+    startDelay: 1000,
+    loop: true,
+  });
+</script>
+</body>
+</html>
